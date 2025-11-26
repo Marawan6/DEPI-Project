@@ -1,0 +1,1845 @@
+2025-11-22T19:15:39.162Z In(05) vmx Log for VMware Workstation pid=10268 version=17.6.1 build=build-24319023 option=Release
+2025-11-22T19:15:39.162Z In(05) vmx The host is x86_64.
+2025-11-22T19:15:39.162Z In(05) vmx Host codepage=windows-1252 encoding=windows-1252
+2025-11-22T19:15:39.162Z In(05) vmx Host is Windows 11 Pro, 64-bit (Build 26100.7171)
+2025-11-22T19:15:39.162Z In(05) vmx Host offset from UTC is -02:00.
+2025-11-22T19:15:39.005Z In(05) vmx VTHREAD 3668 "vmx"
+2025-11-22T19:15:39.011Z In(05) vmx LOCALE windows-1252 -> NULL User=409 System=409
+2025-11-22T19:15:39.011Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2025-11-22T19:15:39.071Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\Marawan Mohamed\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2025-11-22T19:15:39.071Z In(05) vmx Msg_Reset:
+2025-11-22T19:15:39.071Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\Marawan Mohamed\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2025-11-22T19:15:39.071Z In(05) vmx ----------------------------------------
+2025-11-22T19:15:39.071Z In(05) vmx ConfigDB: Failed to load C:\Users\Marawan Mohamed\AppData\Roaming\VMware\config.ini
+2025-11-22T19:15:39.076Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmpl", ...) failed, error: 2
+2025-11-22T19:15:39.079Z In(05) vmx OBJLIB-LIB: Objlib initialized.
+2025-11-22T19:15:39.088Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\Marawan Mohamed\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2025-11-22T19:15:39.088Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\Marawan Mohamed\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2025-11-22T19:15:39.088Z In(05) vmx PREF Optional preferences file not found at C:\Users\Marawan Mohamed\AppData\Roaming\VMware\config.ini. Using default values.
+2025-11-22T19:15:39.142Z In(05) vmx lib/ssl: OpenSSL using default provider
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: Client usage
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: protocol list tls1.2
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: protocol min 0x303 max 0x303
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: protocol list tls1.2 (openssl flags 0x36000000)
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: cipher suites TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: Server usage
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: protocol list tls1.2
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: protocol min 0x303 max 0x303
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: protocol list tls1.2 (openssl flags 0x36000000)
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: cipher suites TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384
+2025-11-22T19:15:39.149Z In(05) vmx lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2025-11-22T19:15:39.174Z In(05) vmx Hostname=Marawan
+2025-11-22T19:15:39.187Z In(05) vmx IP=fe80::b9d7:c972:4fd9:64cb%4
+2025-11-22T19:15:39.187Z In(05) vmx IP=192.168.1.142
+2025-11-22T19:15:39.187Z In(05) vmx IP=fe80::3c37:5dc0:ff00:35b%15
+2025-11-22T19:15:39.187Z In(05) vmx IP=fe80::79bf:2323:5709:8079%9
+2025-11-22T19:15:39.187Z In(05) vmx IP=192.168.152.1
+2025-11-22T19:15:39.187Z In(05) vmx IP=192.168.52.1
+2025-11-22T19:15:39.208Z In(05) vmx System uptime 912132558015 us
+2025-11-22T19:15:39.208Z In(05) vmx Command line: "C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=17.6.1;buildnumber=24319023;licensename=VMware Workstation;licenseversion=17.0;" "-@" "pipe=\\.\pipe\vmx792ecbff6f7b0e52;msgs=ui" "C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmx"
+2025-11-22T19:15:39.208Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2025-11-22T19:15:39.297Z In(05) vmx WQPoolAllocPoll : pollIx = 1, signalHandle = 744
+2025-11-22T19:15:39.298Z In(05) vmx WQPoolAllocPoll : pollIx = 2, signalHandle = 808
+2025-11-22T19:15:39.302Z In(05) vmx VigorTransport listening on fd 904
+2025-11-22T19:15:39.302Z In(05) vmx Vigor_Init 1
+2025-11-22T19:15:39.302Z In(05) vmx Connecting 'ui' to pipe '\\.\pipe\vmx792ecbff6f7b0e52' with user '(null)'
+2025-11-22T19:15:39.302Z In(05) vmx VMXVmdb: Local connection timeout: 60000 ms.
+2025-11-22T19:15:39.366Z In(05) vmx VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2025-11-22T19:15:39.369Z In(05) vmx Vix: [mainDispatch.c:489]: VMAutomation: Initializing VMAutomation.
+2025-11-22T19:15:39.370Z In(05) vmx Vix: [mainDispatch.c:741]: VMAutomationOpenListenerSocket() listening
+2025-11-22T19:15:39.383Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2025-11-22T19:15:39.383Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2025-11-22T19:15:39.384Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2025-11-22T19:15:39.384Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2025-11-22T19:15:39.384Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2025-11-22T19:15:39.384Z In(05) vmx IOPL_Init: Hyper-V detected by CPUID
+2025-11-22T19:15:39.399Z Wa(03) vmx Can't set WSS, error 1314
+2025-11-22T19:15:39.399Z In(05) vmx VerificationOfHostParameters status 1
+2025-11-22T19:15:39.399Z Wa(03) vmx VMX can't verify host parameters.
+2025-11-22T19:15:39.400Z In(05) vmx FeatureCompat: No EVC masks.
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID vendor: GenuineIntel
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID family: 0x6 model: 0xba stepping: 0x3
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID codename: Raptor Lake H/P/PX/U
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID name: 13th Gen Intel(R) Core(TM) i7-1355U
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000000, 0: 0x00000020 0x756e6547 0x6c65746e 0x49656e69
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000001, 0: 0x000b06a3 0x00400800 0xfffaf38b 0xbfcbfbff
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000002, 0: 0x00feff01 0x000000f0 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000004, 0: 0x7c004121 0x02c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000004, 1: 0x7c004122 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000004, 2: 0x7c01c143 0x0240003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000004, 3: 0x7c0fc163 0x02c0003f 0x00003fff 0x00000004
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00002020
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00000003
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000007, 0: 0x00000002 0x239c27a9 0x184007a4 0xbc18c410
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000007, 1: 0x00400810 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000007, 2: 0x00000000 0x00000000 0x00000000 0x00000011
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000a, 0: 0x07300605 0x00000000 0x00000007 0x00008603
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000b, 1: 0x00000006 0x0000000c 0x00000201 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 0: 0x00000007 0x00000340 0x00000340 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 8: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, 9: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, b: 0x00000010 0x00000000 0x00000001 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000d, c: 0x00000018 0x00000000 0x00000001 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.458Z In(05) vmx hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000014, 0: 0x00000001 0x0000005f 0x00000007 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000014, 1: 0x02490002 0x003f003f 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000015, 0: 0x00000002 0x00000088 0x0249f000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000016, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000017, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000018, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000019, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 0000001a, 0: 0x40000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 0000001b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 0000001c, 0: 0x4000000b 0x00000007 0x00000007 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 0000001d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 0000001e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 0000001f, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 0000001f, 1: 0x00000006 0x0000000c 0x00000201 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 0000001f, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 00000020, 0: 0x00000000 0x00000001 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000000, 0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000001, 0: 0x31237648 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000002, 0: 0x000065f4 0x000a0000 0x00000007 0x00001c03
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000003, 0: 0x00003fff 0x002bb9ff 0x00000262 0x75fefbf6
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000004, 0: 0x00960e14 0x00000000 0x0000002e 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000005, 0: 0x00000800 0x00000800 0x000008b8 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000006, 0: 0x098200af 0x00000027 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000007, 0: 0x80000007 0x0000000b 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 40000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 4000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 4000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 4000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000002, 0: 0x68743331 0x6e654720 0x746e4920 0x52286c65
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000003, 0: 0x6f432029 0x54286572 0x6920294d 0x33312d37
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000004, 0: 0x00553535 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x05007040 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2025-11-22T19:15:39.459Z In(05) vmx hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.459Z In(05) vmx CPUID differences from hostCPUID.
+2025-11-22T19:15:39.459Z In(05) vmx CPUID[2] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00010003
+2025-11-22T19:15:39.459Z In(05) vmx CPUID[3] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00010003
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[4] level 00000004, 0: 0x7c004121 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[4] level 00000004, 1: 0x7c004122 0x01c0003f 0x0000007f 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[4] level 00000004, 2: 0x7c01c143 0x03c0003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[4] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00020003
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[4] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[4] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[5] level 00000004, 0: 0x7c004121 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[5] level 00000004, 1: 0x7c004122 0x01c0003f 0x0000007f 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[5] level 00000004, 2: 0x7c01c143 0x03c0003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[5] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00020003
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[5] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[5] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[6] level 00000004, 0: 0x7c004121 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[6] level 00000004, 1: 0x7c004122 0x01c0003f 0x0000007f 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[6] level 00000004, 2: 0x7c01c143 0x03c0003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[6] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00020003
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[6] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[6] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[7] level 00000004, 0: 0x7c004121 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.460Z In(05) vmx CPUID[7] level 00000004, 1: 0x7c004122 0x01c0003f 0x0000007f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[7] level 00000004, 2: 0x7c01c143 0x03c0003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[7] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00020003
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[7] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[7] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[8] level 00000004, 0: 0x7c004121 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[8] level 00000004, 1: 0x7c004122 0x01c0003f 0x0000007f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[8] level 00000004, 2: 0x7c01c143 0x03c0003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[8] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00030003
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[8] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[8] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[9] level 00000004, 0: 0x7c004121 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[9] level 00000004, 1: 0x7c004122 0x01c0003f 0x0000007f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[9] level 00000004, 2: 0x7c01c143 0x03c0003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[9] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00030003
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[9] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[9] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[10] level 00000004, 0: 0x7c004121 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[10] level 00000004, 1: 0x7c004122 0x01c0003f 0x0000007f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[10] level 00000004, 2: 0x7c01c143 0x03c0003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[10] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00030003
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[10] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[10] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[11] level 00000004, 0: 0x7c004121 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[11] level 00000004, 1: 0x7c004122 0x01c0003f 0x0000007f 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[11] level 00000004, 2: 0x7c01c143 0x03c0003f 0x000007ff 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[11] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000409 0x00030003
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[11] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx CPUID[11] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:15:39.461Z In(05) vmx Physical APIC IDs: 0-1,8-9,16,18,20,22,24,26,28,30
+2025-11-22T19:15:39.461Z In(05) vmx Physical X2APIC IDs: 0-1,8-9,16,18,20,22,24,26,28,30
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR       0x3a =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x480 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x481 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x482 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x483 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x484 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x485 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x486 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x487 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x488 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x489 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x48a =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x48b =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x48c =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x48d =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x48e =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x48f =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x490 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x491 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x492 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x493 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR 0xc0010114 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR       0xce =         0x80000000
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x10a =         0x1480e16f
+2025-11-22T19:15:39.465Z In(05) vmx Common: MSR      0x122 =                  0
+2025-11-22T19:15:39.465Z In(05) vmx TSC Hz estimates: vmmon 0, remembered 0, osReported 0. Using 2611209008 Hz.
+2025-11-22T19:15:39.465Z In(05) vmx PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 2611209008Hz
+2025-11-22T19:15:39.465Z In(05) vmx PTSC: RefClockToPTSC ((x * 2190440877) >> 23) + -1721496775320582
+2025-11-22T19:15:39.465Z In(05) vmx PTSC: tscOffset 0
+2025-11-22T19:15:39.465Z In(05) vmx PTSC: using user-level reference clock
+2025-11-22T19:15:39.465Z In(05) vmx PTSC: hardware TSCs are synchronized.
+2025-11-22T19:15:39.465Z In(05) vmx PTSC: hardware TSCs may have been adjusted by the host.
+2025-11-22T19:15:39.465Z In(05) vmx PTSC: current PTSC=314389
+2025-11-22T19:15:39.494Z In(05) vmx WQPoolAllocPoll : pollIx = 3, signalHandle = 992
+2025-11-22T19:15:39.558Z In(05) vmx ConfigCheck: No rules file found. Checks are disabled.
+2025-11-22T19:15:39.558Z In(05) vmx changing directory to C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\.
+2025-11-22T19:15:39.558Z In(05) vmx Config file: C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmx
+2025-11-22T19:15:39.558Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2025-11-22T19:15:39.558Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2025-11-22T19:15:39.569Z In(05) vmx LogRotation: Rotating to a new log file (keepOld 3) took 0.005230 seconds.
+2025-11-22T19:15:39.600Z No(00) vmx LogVMXReplace: Successful switching from temporary to permanent log file took 0.036281 seconds.
+2025-11-22T19:15:39.681Z Wa(03) vmx PowerOn
+2025-11-22T19:15:39.681Z In(05) vmx VMX_PowerOn: VMX build 24319023, UI build 24319023
+2025-11-22T19:15:39.682Z In(05) vmx HostWin32: WIN32 NUMA node 0, CPU mask 0x0000000000000fff
+2025-11-22T19:15:39.707Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2025-11-22T19:15:39.716Z In(05) vmx STATSFILE: StatsFile 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.scoreboard' created
+2025-11-22T19:15:39.720Z In(05) vmx HOST Windows version 10.0, build 26100, platform 2, ""
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2025-11-22T19:15:39.720Z In(05) vmx DICT          printers.enabled = "FALSE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- NON PERSISTENT (null)
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- USER PREFERENCES C:\Users\Marawan Mohamed\AppData\Roaming\VMware\preferences.ini
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.wspro.firstRunDismissedVersion = "17.6.1"
+2025-11-22T19:15:39.720Z In(05) vmx DICT   pref.lastUpdateCheckSec = "1763681229"
+2025-11-22T19:15:39.720Z In(05) vmx DICT         vmWizard.guestKey = "ubuntu-64"
+2025-11-22T19:15:39.720Z In(05) vmx DICT vmWizard.installMediaType = "iso"
+2025-11-22T19:15:39.720Z In(05) vmx DICT vmWizard.isoLocationMRU.count = "1"
+2025-11-22T19:15:39.720Z In(05) vmx DICT vmWizard.isoLocationMRU0.location = "D:\ubuntu-24.10-desktop-amd64.iso"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window.count = "1"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab.count = "3"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab0.dest = ""
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab0.file = ""
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab0.type = "home"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.sidebar = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.sidebar.width = "200"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.statusBar = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tabs = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.size = "100"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.view = "opened-vms"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.placement.left = "32"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.placement.top = "32"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.placement.right = "876"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.placement.bottom = "655"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.maximized = "FALSE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT  pref.fullscreen.autohide = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab1.dest = ""
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab1.file = "folder:52 b6 02 b9 27 d4 13 04-4d 61 02 90 0d 2e 61 1f"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab1.type = "folder"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab1.focused = "FALSE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab2.dest = ""
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab2.file = "C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmx"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab2.type = "vm"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2025-11-22T19:15:39.720Z In(05) vmx DICT pref.ws.session.window0.tab2.focused = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- USER DEFAULTS C:\Users\Marawan Mohamed\AppData\Roaming\VMware\config.ini
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2025-11-22T19:15:39.720Z In(05) vmx DICT         authd.client.port = "902"
+2025-11-22T19:15:39.720Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "1252"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "no"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "1252"
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2025-11-22T19:15:39.720Z In(05) vmx DICT         authd.client.port = "902"
+2025-11-22T19:15:39.720Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "1252"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "no"
+2025-11-22T19:15:39.720Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "1252"
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- NONPERSISTENT
+2025-11-22T19:15:39.720Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT             gui.available = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- COMMAND LINE
+2025-11-22T19:15:39.720Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT             gui.available = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- RECORDING
+2025-11-22T19:15:39.720Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT             gui.available = "TRUE"
+2025-11-22T19:15:39.720Z In(05) vmx DICT --- CONFIGURATION C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmx 
+2025-11-22T19:15:39.720Z In(05) vmx DICT               displayname = "FortiGate DEPi"
+2025-11-22T19:15:39.720Z In(05) vmx DICT                annotation = <not printed>
+2025-11-22T19:15:39.720Z In(05) vmx DICT                   guestos = "other4xlinux-64"
+2025-11-22T19:15:39.720Z In(05) vmx DICT         virtualhw.version = "20"
+2025-11-22T19:15:39.720Z In(05) vmx DICT            config.version = "8"
+2025-11-22T19:15:39.720Z In(05) vmx DICT      cpuid.coresPerSocket = "1"
+2025-11-22T19:15:39.722Z In(05) vmx DICT                   memsize = "2048"
+2025-11-22T19:15:39.722Z In(05) vmx DICT              cpuid.numSMT = "1"
+2025-11-22T19:15:39.722Z In(05) vmx DICT    numa.vcpu.coresPerNode = "0"
+2025-11-22T19:15:39.722Z In(05) vmx DICT        pciBridge0.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT        pciBridge4.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     pciBridge4.virtualDev = "pcieRootPort"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      pciBridge4.functions = "8"
+2025-11-22T19:15:39.722Z In(05) vmx DICT        pciBridge5.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     pciBridge5.virtualDev = "pcieRootPort"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      pciBridge5.functions = "8"
+2025-11-22T19:15:39.722Z In(05) vmx DICT        pciBridge6.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     pciBridge6.virtualDev = "pcieRootPort"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      pciBridge6.functions = "8"
+2025-11-22T19:15:39.722Z In(05) vmx DICT        pciBridge7.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     pciBridge7.virtualDev = "pcieRootPort"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      pciBridge7.functions = "8"
+2025-11-22T19:15:39.722Z In(05) vmx DICT             vmci0.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT           scsi0:0.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT        scsi0:0.deviceType = "disk"
+2025-11-22T19:15:39.722Z In(05) vmx DICT          scsi0:0.fileName = "FortiGate DEPi-disk1.vmdk"
+2025-11-22T19:15:39.722Z In(05) vmx DICT scsi0:0.allowguestconnectioncontrol = "false"
+2025-11-22T19:15:39.722Z In(05) vmx DICT              scsi0:0.mode = "persistent"
+2025-11-22T19:15:39.722Z In(05) vmx DICT           scsi0:1.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT        scsi0:1.deviceType = "disk"
+2025-11-22T19:15:39.722Z In(05) vmx DICT          scsi0:1.fileName = "FortiGate DEPi-disk2.vmdk"
+2025-11-22T19:15:39.722Z In(05) vmx DICT scsi0:1.allowguestconnectioncontrol = "false"
+2025-11-22T19:15:39.722Z In(05) vmx DICT              scsi0:1.mode = "persistent"
+2025-11-22T19:15:39.722Z In(05) vmx DICT          scsi0.virtualDev = "lsilogic"
+2025-11-22T19:15:39.722Z In(05) vmx DICT             scsi0.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet0.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet0.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet0.connectionType = "nat"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet0.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet0.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet0.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet1.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet1.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet1.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet1.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet1.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet1.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet1.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet2.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet2.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet2.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet2.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet2.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet2.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet2.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet3.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet3.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet3.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet3.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet3.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet3.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet3.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet4.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet4.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet4.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet4.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet4.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet4.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet4.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet5.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet5.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet5.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet5.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet5.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet5.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet5.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet6.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet6.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet6.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet6.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet6.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet6.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet6.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet7.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet7.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet7.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet7.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet7.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet7.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet7.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet8.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet8.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet8.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet8.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet8.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet8.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet8.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         ethernet9.present = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT      ethernet9.virtualDev = "vmxnet3"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet9.connectionType = "bridged"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  ethernet9.startConnected = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT     ethernet9.addressType = "generated"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   ethernet9.wakeonpcktrcv = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT ethernet9.allowguestconnectioncontrol = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT  toolscripts.afterpoweron = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT   toolscripts.afterresume = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT toolscripts.beforepoweroff = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT toolscripts.beforesuspend = "TRUE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT        extendedConfigFile = "FortiGate DEPi.vmxf"
+2025-11-22T19:15:39.722Z In(05) vmx DICT virtualHW.productCompatibility = "hosted"
+2025-11-22T19:15:39.722Z In(05) vmx DICT           floppy0.present = "FALSE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT            tools.syncTime = "FALSE"
+2025-11-22T19:15:39.722Z In(05) vmx DICT         vmxstats.filename = "FortiGate DEPi.scoreboard"
+2025-11-22T19:15:39.723Z In(05) vmx DICT      numa.autosize.cookie = "10012"
+2025-11-22T19:15:39.723Z In(05) vmx DICT numa.autosize.vcpu.maxPerVirtualNode = "1"
+2025-11-22T19:15:39.723Z In(05) vmx DICT                 uuid.bios = "56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43"
+2025-11-22T19:15:39.723Z In(05) vmx DICT             uuid.location = "56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43"
+2025-11-22T19:15:39.723Z In(05) vmx DICT  pciBridge0.pciSlotNumber = "17"
+2025-11-22T19:15:39.723Z In(05) vmx DICT  pciBridge4.pciSlotNumber = "21"
+2025-11-22T19:15:39.723Z In(05) vmx DICT  pciBridge5.pciSlotNumber = "22"
+2025-11-22T19:15:39.723Z In(05) vmx DICT  pciBridge6.pciSlotNumber = "23"
+2025-11-22T19:15:39.723Z In(05) vmx DICT  pciBridge7.pciSlotNumber = "24"
+2025-11-22T19:15:39.723Z In(05) vmx DICT       scsi0.pciSlotNumber = "16"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet0.pciSlotNumber = "160"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet1.pciSlotNumber = "192"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet2.pciSlotNumber = "224"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet3.pciSlotNumber = "256"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet4.pciSlotNumber = "1184"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet5.pciSlotNumber = "1216"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet6.pciSlotNumber = "1248"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet7.pciSlotNumber = "1280"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet8.pciSlotNumber = "2208"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   ethernet9.pciSlotNumber = "2240"
+2025-11-22T19:15:39.723Z In(05) vmx DICT              scsi0:1.redo = ""
+2025-11-22T19:15:39.723Z In(05) vmx DICT              scsi0:0.redo = ""
+2025-11-22T19:15:39.723Z In(05) vmx DICT             svga.vramSize = "268435456"
+2025-11-22T19:15:39.723Z In(05) vmx DICT  vmotion.checkpointFBSize = "134217728"
+2025-11-22T19:15:39.723Z In(05) vmx DICT vmotion.checkpointSVGAPrimarySize = "268435456"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   vmotion.svga.mobMaxSize = "268435456"
+2025-11-22T19:15:39.723Z In(05) vmx DICT vmotion.svga.graphicsMemoryKB = "262144"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet0.generatedAddress = "00:0c:29:14:89:43"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet0.generatedAddressOffset = "0"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet1.generatedAddress = "00:0c:29:14:89:4d"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet1.generatedAddressOffset = "10"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet2.generatedAddress = "00:0c:29:14:89:57"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet2.generatedAddressOffset = "20"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet3.generatedAddress = "00:0c:29:14:89:61"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet3.generatedAddressOffset = "30"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet4.generatedAddress = "00:0c:29:14:89:6b"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet4.generatedAddressOffset = "40"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet5.generatedAddress = "00:0c:29:14:89:75"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet5.generatedAddressOffset = "50"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet6.generatedAddress = "00:0c:29:14:89:7f"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet6.generatedAddressOffset = "60"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet7.generatedAddress = "00:0c:29:14:89:89"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet7.generatedAddressOffset = "70"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet8.generatedAddress = "00:0c:29:14:89:93"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet8.generatedAddressOffset = "80"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet9.generatedAddress = "00:0c:29:14:89:9d"
+2025-11-22T19:15:39.723Z In(05) vmx DICT ethernet9.generatedAddressOffset = "90"
+2025-11-22T19:15:39.723Z In(05) vmx DICT                  vmci0.id = "-585856701"
+2025-11-22T19:15:39.723Z In(05) vmx DICT    monitor.phys_bits_used = "45"
+2025-11-22T19:15:39.723Z In(05) vmx DICT             cleanShutdown = "TRUE"
+2025-11-22T19:15:39.723Z In(05) vmx DICT              softPowerOff = "TRUE"
+2025-11-22T19:15:39.723Z In(05) vmx DICT   guestInfo.detailed.data = <not printed>
+2025-11-22T19:15:39.724Z In(05) vmx DICT --- USER DEFAULTS C:\Users\Marawan Mohamed\AppData\Roaming\VMware\config.ini 
+2025-11-22T19:15:39.724Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2025-11-22T19:15:39.724Z In(05) vmx DICT         authd.client.port = "902"
+2025-11-22T19:15:39.724Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "1252"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "no"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "1252"
+2025-11-22T19:15:39.724Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2025-11-22T19:15:39.724Z In(05) vmx DICT         authd.client.port = "902"
+2025-11-22T19:15:39.724Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "1252"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "no"
+2025-11-22T19:15:39.724Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "1252"
+2025-11-22T19:15:39.724Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2025-11-22T19:15:39.724Z In(05) vmx DICT          printers.enabled = "FALSE"
+2025-11-22T19:15:39.726Z In(05) vmx Powering on guestOS 'other4xlinux-64' using the configuration for 'other4xlinux-64'.
+2025-11-22T19:15:39.736Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2025-11-22T19:15:39.736Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2025-11-22T19:15:39.737Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2025-11-22T19:15:39.737Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'other4xlinux-64' guest.
+2025-11-22T19:15:39.739Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2025-11-22T19:15:39.741Z In(05) vmx DEVSWAP: GuestOS does not require LSI adapter swap.
+2025-11-22T19:15:39.745Z In(05) vmx Monitor Mode: ULM
+2025-11-22T19:15:39.745Z In(05) vmx MsgHint: msg.loader.mitigations.wsAndFusion
+2025-11-22T19:15:39.745Z In(05)+ vmx You are running this virtual machine with side channel mitigations enabled. Side channel mitigations provide enhanced security but also lower performance.
+2025-11-22T19:15:39.745Z In(05)+ vmx 
+2025-11-22T19:15:39.745Z In(05)+ vmx To disable mitigations, change the side channel mitigations setting in the advanced panel of the virtual machine settings. Refer to VMware KB article 79832 at https://kb.vmware.com/s/article/79832 for more details.
+2025-11-22T19:15:39.745Z In(05)+ vmx ---------------------------------------
+2025-11-22T19:15:41.492Z No(00) vmx PowerOnTiming: Module MonitorMode took 1747597 us
+2025-11-22T19:15:41.517Z In(05) vmx OvhdMem_PowerOn: initial admission: paged   608407 nonpaged    37917 anonymous     5690
+2025-11-22T19:15:41.517Z In(05) vmx VMMEM: Initial Reservation: 2546MB (MainMem=2048MB)
+2025-11-22T19:15:41.517Z In(05) vmx llc: maximum vcpus per LLC: 1
+2025-11-22T19:15:41.517Z In(05) vmx llc: vLLC size: 1
+2025-11-22T19:15:41.520Z In(05) vmx MemSched_PowerOn: balloon minGuestSize 6553 (80% of min required size 8192)
+2025-11-22T19:15:41.520Z In(05) vmx MemSched: reserved mem (in MB) min 128 max 13547 recommended 13547
+2025-11-22T19:15:41.520Z In(05) vmx MemSched: pg 608407 np 37917 anon 5690 mem 524288
+2025-11-22T19:15:41.793Z In(05) vmx MemSched: numvm 1 locked pages: num 0 max 3269991
+2025-11-22T19:15:41.793Z In(05) vmx MemSched: locked Page Limit: host 3278183 config 3468032
+2025-11-22T19:15:41.793Z In(05) vmx MemSched: minmempct 50 minalloc 0 admitted 1
+2025-11-22T19:15:41.793Z No(00) vmx PowerOnTiming: Module MemSched took 272657 us
+2025-11-22T19:15:41.797Z In(05) PowerNotifyThread VTHREAD 31372 "PowerNotifyThread"
+2025-11-22T19:15:41.797Z In(05) PowerNotifyThread PowerNotify thread is alive.
+2025-11-22T19:15:41.798Z In(05) vmx LICENSE: Running unlicensed VMX (VMware Workstation)
+2025-11-22T19:15:41.799Z In(05) vthread-32608 VTHREAD 32608 "vthread-32608"
+2025-11-22T19:15:41.800Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmpl", ...) failed, error: 2
+2025-11-22T19:15:41.800Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2025-11-22T19:15:41.802Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmpl", ...) failed, error: 2
+2025-11-22T19:15:41.802Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2025-11-22T19:15:41.803Z In(05) vmx Host PA size: 39 bits. Guest PA size: 45 bits.
+2025-11-22T19:15:41.807Z In(05) vmx ToolsISO: Refreshing imageName for 'other4xlinux-64' (refreshCount=1, lastCount=1).
+2025-11-22T19:15:41.807Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2025-11-22T19:15:41.807Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2025-11-22T19:15:41.808Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2025-11-22T19:15:41.808Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'other4xlinux-64' guest.
+2025-11-22T19:15:41.810Z In(05) deviceThread VTHREAD 31752 "deviceThread"
+2025-11-22T19:15:41.810Z In(05) deviceThread Device thread is alive
+2025-11-22T19:15:41.811Z In(05) vmx KHZEstimate 2611209
+2025-11-22T19:15:41.811Z In(05) vmx MHZEstimate 2611
+2025-11-22T19:15:41.811Z In(05) vmx NumVCPUs 1
+2025-11-22T19:15:41.814Z In(05) vmx Msg_Question:
+2025-11-22T19:15:41.814Z In(05) vmx [msg.uuid.altered] This virtual machine might have been moved or copied.
+2025-11-22T19:15:41.814Z In(05)+ vmx In order to configure certain management and networking features, VMware Workstation needs to know if this virtual machine was moved or copied. 
+2025-11-22T19:15:41.814Z In(05)+ vmx 
+2025-11-22T19:15:41.814Z In(05)+ vmx If you don't know, answer "I Co_pied It".
+2025-11-22T19:15:41.814Z In(05)+ vmx 
+2025-11-22T19:15:41.814Z In(05) vmx ----------------------------------------
+2025-11-22T19:19:35.678Z In(05) vmx MsgQuestion: msg.uuid.altered reply=1
+2025-11-22T19:19:35.678Z In(05) vmx UUID: Writing uuid.location value: '56 4d cc a7 1e 51 b4 7a-8a 25 74 19 5f e9 1c 51'
+2025-11-22T19:19:35.678Z No(00) vmx ConfigDB: Setting uuid.location = "56 4d cc a7 1e 51 b4 7a-8a 25 74 19 5f e9 1c 51"
+2025-11-22T19:19:35.710Z No(00) vmx PowerOnTiming: Module UUIDVMX took 233898202 us
+2025-11-22T19:19:35.711Z In(05) vmx AIOGNRC: numThreads=25 ide=0, scsi=2, passthru=0
+2025-11-22T19:19:35.711Z In(05) vmx WORKER: Creating new group with maxThreads=25 (25)
+2025-11-22T19:19:35.714Z In(05) vmx WORKER: Creating new group with maxThreads=1 (26)
+2025-11-22T19:19:35.715Z In(05) vmx MainMem: CPT Host WZ=0 PF=2048 D=0
+2025-11-22T19:19:35.715Z In(05) vmx MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2025-11-22T19:19:35.725Z In(05) vmx MainMem: Opened paging file, 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\564dcca7-1e51-b47a-8a25-74195fe91c51.vmem'.
+2025-11-22T19:19:35.726Z In(05) vmx MStat: Creating Stat vm.uptime
+2025-11-22T19:19:35.726Z In(05) vmx MStat: Creating Stat vm.suspendTime
+2025-11-22T19:19:35.726Z In(05) vmx MStat: Creating Stat vm.powerOnTimeStamp
+2025-11-22T19:19:35.727Z In(05) aioCompletion VTHREAD 24828 "aioCompletion"
+2025-11-22T19:19:35.727Z In(05) vmx VMXAIOMGR: Using: simple=Compl
+2025-11-22T19:19:35.730Z In(05) vmx WORKER: Creating new group with maxThreads=1 (27)
+2025-11-22T19:19:35.737Z In(05) vmx WORKER: Creating new group with maxThreads=1 (28)
+2025-11-22T19:19:35.737Z In(05) vmx WORKER: Creating new group with maxThreads=14 (42)
+2025-11-22T19:19:35.738Z In(05) vmx FeatureCompat: No VM masks.
+2025-11-22T19:19:35.738Z In(05) vmx TimeTracker host to guest rate conversion 616958414832 @ 2611209008Hz -> 0 @ 2611209008Hz
+2025-11-22T19:19:35.738Z In(05) vmx TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -616958414832
+2025-11-22T19:19:35.738Z In(05) vmx Disabling TSC scaling since host does not support it.
+2025-11-22T19:19:35.738Z In(05) vmx TSC offsetting enabled.
+2025-11-22T19:19:35.738Z In(05) vmx timeTracker.globalProgressMaxAllowanceMS: 2000
+2025-11-22T19:19:35.738Z In(05) vmx timeTracker.globalProgressToAllowanceNS: 1000
+2025-11-22T19:19:35.738Z In(05) vmx MKS PowerOn
+2025-11-22T19:19:35.740Z In(05) mks VTHREAD 25776 "mks"
+2025-11-22T19:19:35.740Z In(05) mks MKS thread is alive
+2025-11-22T19:19:35.741Z In(05) svga VTHREAD 12784 "svga"
+2025-11-22T19:19:35.741Z In(05) svga SVGA thread is alive
+2025-11-22T19:19:35.741Z In(05) mks MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2025-11-22T19:19:35.743Z In(05) mouse VTHREAD 10292 "mouse"
+2025-11-22T19:19:35.743Z In(05) mks MKS-HookKeyboard: RegQueryValueEx(LowLevelHooksTimeout) failed: The system cannot find the file specified (2)
+2025-11-22T19:19:35.744Z In(05) kbh VTHREAD 22532 "kbh"
+2025-11-22T19:19:35.762Z In(05) mks MKSWin32: Registering top level window (0x290336) to receive session change notification.
+2025-11-22T19:19:35.764Z In(05) mks MKSWin32: Disabled power throttling.
+2025-11-22T19:19:35.765Z In(05) mks Current Display Settings:
+2025-11-22T19:19:35.765Z In(05) mks    Display: 0 size: 1920x1200  position: (0, 0) name: \\.\DISPLAY1  
+2025-11-22T19:19:35.765Z In(05) mks MKSWin32: MIL: 0x4000
+2025-11-22T19:19:35.765Z In(05) mks MKSRenderMain: PowerOn allowed BasicOps 
+2025-11-22T19:19:35.765Z In(05) mks MKSRenderMain: ISB enabled by config
+2025-11-22T19:19:35.766Z In(05) mks MKSRenderMain: Collecting RenderOps caps from BasicOps
+2025-11-22T19:19:35.766Z In(05) mks MKSRenderMain: Starting BasicOps
+2025-11-22T19:19:35.766Z In(05) mks MKSRenderMain: Started BasicOps
+2025-11-22T19:19:35.767Z In(05) mks MKSRenderMain: Found Full Renderer: MKSBasicOps
+2025-11-22T19:19:35.767Z In(05) mks MKSRenderMain: maxTextureSize=32768
+2025-11-22T19:19:35.769Z In(05) mks KHBKL: Unable to parse keystring at: ''
+2025-11-22T19:19:35.769Z In(05) mks MKSRemoteMgr: Set default display name: FortiGate DEPi
+2025-11-22T19:19:35.769Z In(05) mks MKSRemoteMgr: Loading VNC Configuration from VM config file
+2025-11-22T19:19:35.769Z In(05) mks MKSRemoteMgr: Using default VNC keymap table "us"
+2025-11-22T19:19:35.770Z In(05) vmx VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2025-11-22T19:19:35.770Z In(05) vmx VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2025-11-22T19:19:35.771Z In(05) vmx Chipset version: 0x13
+2025-11-22T19:19:35.775Z In(05) vmx SOUNDLIB: Creating the Wave sound backend.
+2025-11-22T19:19:35.781Z No(00) vmx ConfigDB: Setting pciBridge4.pciSlotNumber = "-1"
+2025-11-22T19:19:35.781Z No(00) vmx ConfigDB: Setting pciBridge5.pciSlotNumber = "-1"
+2025-11-22T19:19:35.781Z No(00) vmx ConfigDB: Setting pciBridge6.pciSlotNumber = "-1"
+2025-11-22T19:19:35.781Z No(00) vmx ConfigDB: Setting pciBridge7.pciSlotNumber = "-1"
+2025-11-22T19:19:35.781Z No(00) vmx ConfigDB: Setting pciBridge4.pciSlotNumber = "21"
+2025-11-22T19:19:35.781Z No(00) vmx ConfigDB: Setting pciBridge5.pciSlotNumber = "22"
+2025-11-22T19:19:35.781Z No(00) vmx ConfigDB: Setting pciBridge6.pciSlotNumber = "23"
+2025-11-22T19:19:35.781Z No(00) vmx ConfigDB: Setting pciBridge7.pciSlotNumber = "24"
+2025-11-22T19:19:35.796Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation begins.
+2025-11-22T19:19:35.796Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation completes.
+2025-11-22T19:19:35.797Z In(05) vthread-13252 VTHREAD 13252 "vthread-13252"
+2025-11-22T19:19:35.797Z No(00) vmx ConfigDB: Setting scsi0:1.redo = ""
+2025-11-22T19:19:35.797Z In(05) vmx DISK: OPEN scsi0:1 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi-disk2.vmdk' persistent R[]
+2025-11-22T19:19:35.797Z No(00) worker-32608 ConfigDB: Setting scsi0:0.redo = ""
+2025-11-22T19:19:35.797Z In(05) worker-32608 DISK: OPEN scsi0:0 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi-disk1.vmdk' persistent R[]
+2025-11-22T19:19:35.812Z In(05) vmx DiskGetGeometry: Reading of disk partition table
+2025-11-22T19:19:35.812Z In(05) worker-32608 DiskGetGeometry: Reading of disk partition table
+2025-11-22T19:19:35.813Z In(05) worker-32608 DISK: Disk 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi-disk1.vmdk' has UUID '60 00 c2 97 74 7e ad 60-01 9d 1f c2 d6 0b 29 76'
+2025-11-22T19:19:35.813Z In(05) worker-32608 DISK: OPEN 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi-disk1.vmdk' Geo (261/255/63) BIOS Geo (261/255/63)
+2025-11-22T19:19:35.813Z In(05) vmx DISK: Disk 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi-disk2.vmdk' has UUID '60 00 c2 9d 16 d3 52 33-9c d7 d2 0a b3 74 90 77'
+2025-11-22T19:19:35.813Z In(05) vmx DISK: OPEN 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi-disk2.vmdk' Geo (3916/255/63) BIOS Geo (3916/255/63)
+2025-11-22T19:19:35.827Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2025-11-22T19:19:35.828Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2025-11-22T19:19:35.828Z In(05) worker-32608 DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2025-11-22T19:19:35.828Z In(05) vmx DISK: DiskConfigureVirtualSSD:  Disk 'scsi0:1' identified as Virtual SSD device.
+2025-11-22T19:19:35.828Z In(05) worker-32608 DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2025-11-22T19:19:35.828Z In(05) worker-32608 DISK: DiskConfigureVirtualSSD:  Disk 'scsi0:0' identified as Virtual SSD device.
+2025-11-22T19:19:35.828Z In(05) vmx DISK: Opening disks took 31 ms.
+2025-11-22T19:19:35.829Z Wa(03) vmx USB: No USB controllers found.
+2025-11-22T19:19:35.841Z In(05) vmx SCSI: scsi0: intr coalescing: on period=50msec cifTh=4 iopsTh=2000 hlt=0
+2025-11-22T19:19:35.841Z In(05) vmx SCSI0: UNTAGGED commands will be converted to ORDER tags.
+2025-11-22T19:19:35.842Z In(05) vmx SCSI DEVICE (scsi0:0): Computed value of scsi0:0.useBounceBuffers: default
+2025-11-22T19:19:35.842Z In(05) vmx DISKUTIL: scsi0:0 : capacity=4194304 logical sector size=512
+2025-11-22T19:19:35.842Z In(05) vmx DISKUTIL: scsi0:0 : geometry=261/255/63
+2025-11-22T19:19:35.842Z In(05) vmx SCSI DEVICE (scsi0:1): Computed value of scsi0:1.useBounceBuffers: default
+2025-11-22T19:19:35.842Z In(05) vmx DISKUTIL: scsi0:1 : capacity=62914560 logical sector size=512
+2025-11-22T19:19:35.842Z In(05) vmx DISKUTIL: scsi0:1 : geometry=3916/255/63
+2025-11-22T19:19:35.843Z In(05) vmx SVGA-GFB: Config settings: autodetect=1, numDisplays=1, maxWidth=2560, maxHeight=1600
+2025-11-22T19:19:35.843Z In(05) vmx SVGA-GFB: Desired maximum display topology: wh(6688, 5016)
+2025-11-22T19:19:35.843Z In(05) vmx SVGA-GFB: Autodetected target gfbSize = 268435456
+2025-11-22T19:19:35.843Z In(05) vmx SVGA-GFB: Using Initial       gfbSize = 134217728
+2025-11-22T19:19:35.843Z In(05) vmx SVGA-GFB: MaxPrimaryMem      register = 268435456
+2025-11-22T19:19:35.843Z In(05) vmx SVGA-GFB: Max wh(6688, 5016), number of displays: 10
+2025-11-22T19:19:35.843Z In(05) vmx SVGA-GFB: Allocated gfbSize=134217728
+2025-11-22T19:19:35.843Z No(00) vmx ConfigDB: Setting vmotion.checkpointFBSize = "134217728"
+2025-11-22T19:19:35.843Z No(00) vmx ConfigDB: Setting vmotion.checkpointSVGAPrimarySize = "268435456"
+2025-11-22T19:19:35.843Z In(05) vmx SVGA: SVGA DeviceLabel: svga2
+2025-11-22T19:19:35.843Z No(00) vmx ConfigDB: Setting vmotion.svga.mobMaxSize = "268435456"
+2025-11-22T19:19:35.843Z No(00) vmx ConfigDB: Setting vmotion.svga.graphicsMemoryKB = "262144"
+2025-11-22T19:19:35.843Z In(05) vmx SVGA: mobMaxSize=268435456
+2025-11-22T19:19:35.843Z In(05) vmx SVGA: graphicsMemoryKB=262144
+2025-11-22T19:19:35.843Z In(05) vmx SVGA: FIFO capabilities 0x0000077f
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.supports3D bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.baseCapsLevel num 11
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxPointSize num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxTextureSize num 32768
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxVolumeExtent num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxTextureAnisotropy num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.lineStipple bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.dxMaxConstantBuffers num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.dxProvokingVertex bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.sm41 bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample2x bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample4x bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.msFullQuality bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.logicOps bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.bc67 num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.sm5 bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample8x bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.logicBlendOps bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxForcedSampleCount num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (before clamping) svga.gl43 bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.supports3D bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.baseCapsLevel num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxPointSize num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxTextureSize num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxVolumeExtent num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxTextureAnisotropy num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.lineStipple bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.dxMaxConstantBuffers num 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.dxProvokingVertex bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.sm41 bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample2x bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample4x bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.msFullQuality bool 0
+2025-11-22T19:19:35.843Z In(05) vmx SVGAFeature renderer (after  clamping) svga.logicOps bool 0
+2025-11-22T19:19:35.844Z In(05) vmx SVGAFeature renderer (after  clamping) svga.bc67 num 0
+2025-11-22T19:19:35.844Z In(05) vmx SVGAFeature renderer (after  clamping) svga.sm5 bool 0
+2025-11-22T19:19:35.844Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample8x bool 0
+2025-11-22T19:19:35.844Z In(05) vmx SVGAFeature renderer (after  clamping) svga.logicBlendOps bool 0
+2025-11-22T19:19:35.844Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxForcedSampleCount num 0
+2025-11-22T19:19:35.844Z In(05) vmx SVGAFeature renderer (after  clamping) svga.gl43 bool 0
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp: Renderer Provides     BC67Level:     0 (    0,     0)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp: Renderer Provides BaseCapsLevel:     0 (    0,     0)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp: Renderer Provides    ClampLevel:     0 (    0,     0)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dCaps: host, at power on (3d disabled)
+2025-11-22T19:19:35.844Z In(05) vmx   cap[ 19]: 0x00002000 (MAX_TEXTURE_WIDTH)
+2025-11-22T19:19:35.844Z In(05) vmx   cap[ 20]: 0x00002000 (MAX_TEXTURE_HEIGHT)
+2025-11-22T19:19:35.844Z In(05) vmx   cap[ 93]: 0x00000001 (TS_COLOR_KEY)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp:     Host Provides     BC67Level:     0 (    0,     0)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp:     Host Provides BaseCapsLevel:     0 (    0,     4)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp:     Host Provides    ClampLevel:     0 (    0,     0)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dCaps: Disabling 3d support
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dCaps: guest, compatibility level: 10
+2025-11-22T19:19:35.844Z In(05) vmx   cap[ 19]: 0x00002000 (MAX_TEXTURE_WIDTH)
+2025-11-22T19:19:35.844Z In(05) vmx   cap[ 20]: 0x00002000 (MAX_TEXTURE_HEIGHT)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp:    Guest Requires     BC67Level:     0 (    0,     0)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp:    Guest Requires BaseCapsLevel:     0 (    0,     0)
+2025-11-22T19:19:35.844Z In(05) vmx SVGA3dClamp:    Guest Requires    ClampLevel:     0 (    0,     0)
+2025-11-22T19:19:35.845Z In(05) vmx Ethernet0 MAC Address: 00:0c:29:14:89:43
+2025-11-22T19:19:35.851Z In(05) vmx Ethernet0 MAC Address: 00:0c:29:14:89:43
+2025-11-22T19:19:35.853Z In(05) vmx Ethernet1 MAC Address: 00:0c:29:14:89:4d
+2025-11-22T19:19:35.854Z In(05) vmx Ethernet1 MAC Address: 00:0c:29:14:89:4d
+2025-11-22T19:19:35.856Z In(05) vmx Ethernet2 MAC Address: 00:0c:29:14:89:57
+2025-11-22T19:19:35.857Z In(05) vmx Ethernet2 MAC Address: 00:0c:29:14:89:57
+2025-11-22T19:19:35.858Z In(05) vmx Ethernet3 MAC Address: 00:0c:29:14:89:61
+2025-11-22T19:19:35.859Z In(05) vmx Ethernet3 MAC Address: 00:0c:29:14:89:61
+2025-11-22T19:19:35.861Z In(05) vmx Ethernet4 MAC Address: 00:0c:29:14:89:6b
+2025-11-22T19:19:35.862Z In(05) vmx Ethernet4 MAC Address: 00:0c:29:14:89:6b
+2025-11-22T19:19:35.863Z In(05) vmx Ethernet5 MAC Address: 00:0c:29:14:89:75
+2025-11-22T19:19:35.865Z In(05) vmx Ethernet5 MAC Address: 00:0c:29:14:89:75
+2025-11-22T19:19:35.866Z In(05) vmx Ethernet6 MAC Address: 00:0c:29:14:89:7f
+2025-11-22T19:19:35.867Z In(05) vmx Ethernet6 MAC Address: 00:0c:29:14:89:7f
+2025-11-22T19:19:35.869Z In(05) vmx Ethernet7 MAC Address: 00:0c:29:14:89:89
+2025-11-22T19:19:35.870Z In(05) vmx Ethernet7 MAC Address: 00:0c:29:14:89:89
+2025-11-22T19:19:35.871Z In(05) vmx Ethernet8 MAC Address: 00:0c:29:14:89:93
+2025-11-22T19:19:35.873Z In(05) vmx Ethernet8 MAC Address: 00:0c:29:14:89:93
+2025-11-22T19:19:35.874Z In(05) vmx Ethernet9 MAC Address: 00:0c:29:14:89:9d
+2025-11-22T19:19:35.875Z In(05) vmx Ethernet9 MAC Address: 00:0c:29:14:89:9d
+2025-11-22T19:19:35.877Z No(00) vmx ConfigDB: Setting vmci0.id = "-585856701"
+2025-11-22T19:19:35.888Z In(05) vmx WORKER: Creating new group with maxThreads=1 (43)
+2025-11-22T19:19:35.888Z In(05) vmx DISKUTIL: scsi0:0 : max toolsVersion = 2147483647, type = 0
+2025-11-22T19:19:35.888Z In(05) vmx TOOLS setting legacy tools version to '2147483647' type 0, manifest status is 9
+2025-11-22T19:19:35.888Z In(05) vmx ToolsISO: Refreshing imageName for 'other4xlinux-64' (refreshCount=1, lastCount=1).
+2025-11-22T19:19:35.888Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2025-11-22T19:19:35.888Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2025-11-22T19:19:35.889Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2025-11-22T19:19:35.889Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'other4xlinux-64' guest.
+2025-11-22T19:19:35.889Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Program Files (x86)\VMware\VMware Workstation\linux.iso", ...) failed, error: 2
+2025-11-22T19:19:35.889Z In(05) vmx TOOLS updated cached value for isoImageExists to 0.
+2025-11-22T19:19:35.889Z In(05) vmx VMXVmdb_SetToolsVersionStatus: status value set to 'unmanaged', 'unmanaged', install impossible
+2025-11-22T19:19:35.889Z In(05) vmx ToolsISO: Refreshing imageName for 'other4xlinux-64' (refreshCount=1, lastCount=1).
+2025-11-22T19:19:35.889Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2025-11-22T19:19:35.889Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2025-11-22T19:19:35.889Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2025-11-22T19:19:35.889Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'other4xlinux-64' guest.
+2025-11-22T19:19:35.889Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Program Files (x86)\VMware\VMware Workstation\linux.iso", ...) failed, error: 2
+2025-11-22T19:19:35.889Z In(05) vmx TOOLS updated cached value for isoImageExists to 0.
+2025-11-22T19:19:35.889Z In(05) vmx VMXVmdb_SetToolsVersionStatus: status value set to 'unmanaged', 'unmanaged', install impossible
+2025-11-22T19:19:35.889Z In(05) vmx Tools: sending 'OS_PowerOn' (state = 3) state change request
+2025-11-22T19:19:35.889Z In(05) vmx Tools: Delaying state change request to state 3.
+2025-11-22T19:19:35.889Z In(05) vmx TOOLS INSTALL initializing state to IDLE on power on.
+2025-11-22T19:19:35.889Z In(05) vmx TOOLS INSTALL updating Rpc handlers registration.
+2025-11-22T19:19:35.889Z In(05) vmx TOOLS INSTALL register RPC: upgrader.setGuestFileRoot
+2025-11-22T19:19:35.889Z In(05) vmx TOOLS INSTALL register RPC: toolinstall.is_image_inserted
+2025-11-22T19:19:35.889Z In(05) vmx TOOLS INSTALL register RPC: toolinstall.installerActive
+2025-11-22T19:19:35.889Z In(05) vmx TOOLS INSTALL register RPC: guest.upgrader_send_cmd_line_args
+2025-11-22T19:19:35.889Z In(05) vmx P9FS_PowerOn: 9PFS server is not enabled.
+2025-11-22T19:19:35.889Z In(05) vmx HgfsServerManagerVigorInit: Initialize: dev api
+2025-11-22T19:19:35.889Z In(05) vmx MKSBackdoor: Copy/paste enabled = 1
+2025-11-22T19:19:35.889Z In(05) vmx DEPLOYPKG: No pending deploy package name set
+2025-11-22T19:19:35.889Z In(05) vmx DEPLOYPKG: ToolsDeployPkgPublishState: state=0, code=0, message=(null)
+2025-11-22T19:19:35.927Z No(00) vmx ConfigDB: Setting monitor.phys_bits_used = "45"
+2025-11-22T19:19:35.927Z In(05) vmx Full guest CPUID with differences from hostCPUID highlighted.
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest vendor: GenuineIntel
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest family: 0x6 model: 0xba stepping: 0x3
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest codename: Raptor Lake H/P/PX/U
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest name: 13th Gen Intel(R) Core(TM) i7-1355U
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID       level eaxIn, ecxIn:        eax        ebx        ecx        edx
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000000,  0: 0x00000020 0x756e6547 0x6c65746e 0x49656e69
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000001,  0: 0x000b06a3 0x00010800 0xf6fa3203 0x0f8bfbff
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000001,  0: 0x000b06a3 0x00400800 0xfffaf38b 0xbfcbfbff
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000002,  0: 0x00feff01 0x000000f0 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000004,  0: 0x00000121 0x02c0003f 0x0000003f 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000004,  0: 0x7c004121 0x02c0003f 0x0000003f 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000004,  1: 0x00000122 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000004,  1: 0x7c004122 0x01c0003f 0x0000003f 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000004,  2: 0x00000143 0x0240003f 0x000007ff 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000004,  2: 0x7c01c143 0x0240003f 0x000007ff 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000004,  3: 0x00000163 0x02c0003f 0x00003fff 0x00000004
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000004,  3: 0x7c0fc163 0x02c0003f 0x00003fff 0x00000004
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000006,  0: 0x00000004 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000006,  0: 0x009f8ff3 0x00000002 0x00000409 0x00000003
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000007,  0: 0x00000002 0x219c27ab 0x18400704 0xbc004410
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000007,  0: 0x00000002 0x239c27a9 0x184007a4 0xbc18c410
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000007,  1: 0x00000810 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000007,  1: 0x00400810 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000007,  2: 0x00000000 0x00000000 0x00000000 0x00000001
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000007,  2: 0x00000000 0x00000000 0x00000000 0x00000011
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000000a,  0: 0x07300601 0x000000ff 0x00000007 0x00008000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 0000000a,  0: 0x07300605 0x00000000 0x00000007 0x00008603
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000000b,  0: 0x00000000 0x00000001 0x00000100 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 0000000b,  0: 0x00000001 0x00000002 0x00000100 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000000b,  1: 0x00000000 0x00000001 0x00000201 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 0000000b,  1: 0x00000006 0x0000000c 0x00000201 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000000d,  0: 0x00000007 0x00000340 0x00000340 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000000d,  1: 0x0000000f 0x00000350 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 0000000d,  1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000000d,  2: 0x00000100 0x00000240 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000014,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000014,  0: 0x00000001 0x0000005f 0x00000007 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000014,  1: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000014,  1: 0x02490002 0x003f003f 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000015,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000015,  0: 0x00000002 0x00000088 0x0249f000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000001a,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 0000001a,  0: 0x40000001 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000001c,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 0000001c,  0: 0x4000000b 0x00000007 0x00000007 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000001f,  0: 0x00000000 0x00000001 0x00000100 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 0000001f,  0: 0x00000001 0x00000002 0x00000100 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 0000001f,  1: 0x00000000 0x00000001 0x00000201 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 0000001f,  1: 0x00000006 0x0000000c 0x00000201 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 00000020,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 00000020,  0: 0x00000000 0x00000001 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 40000000,  0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 40000000,  0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 40000010,  0: 0x0027d809 0x000101d0 0x00000002 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 80000000,  0: 0x80000008 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 80000001,  0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 80000002,  0: 0x68743331 0x6e654720 0x746e4920 0x52286c65
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 80000003,  0: 0x6f432029 0x54286572 0x6920294d 0x33312d37
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 80000004,  0: 0x00553535 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 80000006,  0: 0x00000000 0x00000000 0x05007040 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 80000007,  0: 0x00000000 0x00000000 0x00000000 0x00000100
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID guest level 80000008,  0: 0x0000302d 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx guest vs. host CPUID *host level 80000008,  0: 0x00003027 0x00000000 0x00000000 0x00000000
+2025-11-22T19:19:35.927Z In(05) vmx Minimum ucode level: 0x00004121
+2025-11-22T19:19:35.927Z In(05) vmx VPMC: events will use hybrid freeze.
+2025-11-22T19:19:35.927Z In(05) vmx VPMC: gen counters: num 6 mask 0xffffffffffff
+2025-11-22T19:19:35.927Z In(05) vmx VPMC: fix counters: num 0 mask 0; version 1
+2025-11-22T19:19:35.927Z In(05) vmx VPMC: hardware counters: 0
+2025-11-22T19:19:35.927Z In(05) vmx VPMC: perf capabilities: 0x2000
+2025-11-22T19:19:35.927Z In(05) vmx Guest MSR IA32_ARCH_CAPABILITIES 0x10a = 0x2f
+2025-11-22T19:19:35.927Z In(05) vmx SVGA-PCI: BAR gfbSize=134217728, fifoSize=8388608
+2025-11-22T19:19:35.927Z In(05) vmx SVGA: SVGA_REG_MEMORY_SIZE=134217728
+2025-11-22T19:19:35.927Z In(05) vmx SVGA: SVGA_REG_VRAM_SIZE=134217728
+2025-11-22T19:19:35.927Z In(05) vmx SVGA: Final Device caps : 0xfdff83e2
+2025-11-22T19:19:35.927Z In(05) vmx SVGA: Final Device caps2: 0x0005efff
+2025-11-22T19:19:35.927Z In(05) vmx PStrIntern expansion: nBkts=256
+2025-11-22T19:19:35.928Z In(05) vmx FeatureCompat: Capabilities:
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.sse3 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.pclmulqdq = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.mwait = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.ssse3 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.fma = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.cmpxchg16b = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.pcid = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.sse41 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.sse42 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.movbe = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.popcnt = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.aes = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xsave = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.avx = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.f16c = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.rdrand = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.ds = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.ss = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.fsgsbase = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.bmi1 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.avx2 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.smep = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.bmi2 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.enfstrg = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.invpcid = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.rdseed = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.adx = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.smap = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.clflushopt = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.clwb = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.sha = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.umip = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.gfni = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.vaes = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.vpclmulqdq = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.rdpid = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.movdiri = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.movdir64b = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.fast_short_repmov = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.mdclear = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.serialize = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.cet_ibt = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.stibp = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.fcmd = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.ssbd = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.avx_vnni = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.fast_short_stosb = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.psfd = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xcr0_master_sse = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xcr0_master_ymm_h = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xcr0_master_bndregs = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xcr0_master_bndcsr = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xsaveopt = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xsavec = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xgetbv_ecx1 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.xsaves = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.lahf64 = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.abm = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.3dnprefetch = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.nx = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.pdpe1gb = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.rdtscp = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.lm = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.intel = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.ibrs = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: cpuid.ibpb = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: misc.cpuidfaulting = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: misc.rdcl_no = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: misc.ibrs_all = 1
+2025-11-22T19:19:35.928Z In(05) vmx Capability Found: misc.mds_no = 1
+2025-11-22T19:19:35.928Z In(05) vmx FeatureCompat: Requirements:
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.sse3 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.pclmulqdq - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.ssse3 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.fma - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.cmpxchg16b - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.pcid - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.sse41 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.sse42 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.movbe - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.popcnt - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.aes - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.xsave - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.avx - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.f16c - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.rdrand - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.ss - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.fsgsbase - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.bmi1 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.avx2 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.smep - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.bmi2 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.enfstrg - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.invpcid - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.rdseed - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.adx - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.smap - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.clflushopt - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.clwb - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.sha - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.umip - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.gfni - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.vaes - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.vpclmulqdq - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.rdpid - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.movdiri - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.movdir64b - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.fast_short_repmov - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.mdclear - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.serialize - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.stibp - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.fcmd - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.ssbd - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.avx_vnni - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.fast_short_stosb - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.psfd - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.xcr0_master_sse - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.xcr0_master_ymm_h - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.xsaveopt - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.xsavec - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.xgetbv_ecx1 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.xsaves - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.lahf64 - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.abm - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.3dnprefetch - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.nx - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.pdpe1gb - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.rdtscp - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.lm - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.intel - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.ibrs - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: cpuid.ibpb - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: misc.rdcl_no - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: misc.ibrs_all - Bool:Min:1
+2025-11-22T19:19:35.928Z In(05) vmx VM Features Required: misc.mds_no - Bool:Min:1
+2025-11-22T19:19:35.962Z In(05) vmx TOOLS received request in VMX to set option 'enableDnD' -> '1'
+2025-11-22T19:19:35.964Z In(05) vmx 
+2025-11-22T19:19:35.964Z In(05)+ vmx OvhdMem: Static (Power On) Overheads
+2025-11-22T19:19:35.964Z In(05) vmx                                                       reserved      |          used
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_MainMem                    :  524288 524288      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxText                    :    7936   7936      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxTextLibs                :   17408  17408      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem Total excluded                      :  549632 549632      - |      -      -      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem Actual maximum                      :         549632        |             -
+2025-11-22T19:19:35.964Z In(05)+ vmx 
+2025-11-22T19:19:35.964Z In(05) vmx                                                       reserved      |          used
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SvgaMobFallback            :  196608 196608      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SvgaSurfaceTable           :       6      6      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SvgaSDirtyCache            :      96     96      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SvgaCursor                 :      10     10      - |     10     10      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SvgaPPNList                :     258    258      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxHeap                    :    8704   8704      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxMks                     :      49     49      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxMksRenderOps            :     678    678      - |    492    492      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxMks3d                   :   65537  65537      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxMksScreenTemp           :   69890  69890      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxMksVnc                  :   74936  74936      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxMksScreen               :  131075 131075      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxMksSwbCursor            :    4096   4096      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VmxThreads                 :   35328  35328      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem Total paged                         :  608407 608407      - |    502    502      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem Actual maximum                      :         608407        |        608407
+2025-11-22T19:19:35.964Z In(05)+ vmx 
+2025-11-22T19:19:35.964Z In(05) vmx                                                       reserved      |          used
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SharedArea                 :      19     19      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_BusMemTraceBitmap          :      22     22      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_PFrame                     :       0   2304      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_BusMemFrame                :     677   1760      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VGA                        :      64     64      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_ServicesMPN                :       3      3      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_LocalApic                  :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_VnicGuest                  :     160    160      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_LSIBIOS                    :       4      4      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_LSIRings                   :       4      4      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SAS1068BIOS                :       4      4      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_FlashRam                   :     128    128      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SVGAFB                     :   32768  32768      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_SVGAMEM                    :      64    512      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_ExtCfg                     :       4      4      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_LBR                        :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_MonWired                   :      35     35      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_NVDC                       :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdUser_PCIeMMIOArea               :      70     70      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem Total nonpaged                      :   34082  37917      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem Actual maximum                      :          34082        |         37917
+2025-11-22T19:19:35.964Z In(05)+ vmx 
+2025-11-22T19:19:35.964Z In(05) vmx                                                       reserved      |          used
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_Alloc                       :      98     98      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_BusMemFrame                 :     609    666      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_BusMem2MInfo                :       8      8      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_BusMem1GInfo                :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_BusMemPreval                :       4      4      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_MonAS                       :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_GuestMem                    :      40     40      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_TC                          :     513    513      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_BusMemMonAS                 :       5      5      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_PlatformMonAS               :       7      7      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_HVNuma                      :       2      2      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_HV                          :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_HVMSRBitmap                 :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_VHVGuestMSRBitmap           :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_Numa                        :      24     24      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_BaseWired                   :      29     29      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_Bootstrap                   :    2300   2300      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_GPhysTraced                 :     268    268      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_GPhysHWMMU                  :    1342   1342      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_GPhysNoTrace                :     264    264      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_PhysMemGart                 :     104    104      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem Total anonymous                     :    5633   5690      - |      0      0      -
+2025-11-22T19:19:35.964Z In(05) vmx OvhdMem Actual maximum                      :           5633        |          5690
+2025-11-22T19:19:35.964Z In(05)+ vmx 
+2025-11-22T19:19:35.964Z In(05) vmx VMMEM: Precise Reservation: 2531MB (MainMem=2048MB)
+2025-11-22T19:19:35.965Z In(05) vmx Vix: [mainDispatch.c:1059]: VMAutomation_PowerOn. Powering on.
+2025-11-22T19:19:35.965Z No(00) vmx PowerOnTiming: ALL took 236258888 us
+2025-11-22T19:19:35.965Z In(05) vmx VMX_PowerOn: ModuleTable_PowerOn = 1
+2025-11-22T19:19:35.966Z No(00) vmx ConfigDB: Setting cleanShutdown = "FALSE"
+2025-11-22T19:19:35.966Z No(00) vmx ConfigDB: Setting softPowerOff = "FALSE"
+2025-11-22T19:19:35.977Z In(05) vcpu-0 VTHREAD 10836 "vcpu-0"
+2025-11-22T19:19:35.979Z In(05) vcpu-0 CPU reset: hard (mode Emulation)
+2025-11-22T19:19:35.980Z In(05) svga MKSThread: SVGA thread is entering the main loop
+2025-11-22T19:19:35.980Z In(05) vcpu-0 GuestRpc: Successfully created RPCI listening socket.
+2025-11-22T19:19:35.980Z In(05) vcpu-0 GuestRpc: Using vsocket for TCLO messaging is disabled.
+2025-11-22T19:19:35.980Z In(05) vcpu-0 memoryHotplug: Node 0: Present: 2047 MB (100 %) Size:2047 MB (100 %)
+2025-11-22T19:19:35.980Z In(05) vcpu-0 PIIX4: PM Resuming from suspend type 0x0, chipset.onlineStandby 0
+2025-11-22T19:19:35.981Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet9' notify available.
+2025-11-22T19:19:35.984Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet8' notify available.
+2025-11-22T19:19:35.986Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet7' notify available.
+2025-11-22T19:19:35.988Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet6' notify available.
+2025-11-22T19:19:35.990Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet5' notify available.
+2025-11-22T19:19:35.992Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet4' notify available.
+2025-11-22T19:19:35.994Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet3' notify available.
+2025-11-22T19:19:35.996Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet2' notify available.
+2025-11-22T19:19:35.998Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet1' notify available.
+2025-11-22T19:19:36.000Z In(05) vcpu-0 VNET: 'ethernet0' enable link state propagation, lsp.state = 5
+2025-11-22T19:19:36.000Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'ethernet0' lsp.state = 4
+2025-11-22T19:19:36.000Z In(05) vcpu-0 VNET: MACVNetConnectToNetwork 'Ethernet0' notify available.
+2025-11-22T19:19:36.002Z In(05) vcpu-0 HGFSPublish: publishing 0 shares
+2025-11-22T19:19:36.003Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.accelerometer"
+2025-11-22T19:19:36.003Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.ambientLight"
+2025-11-22T19:19:36.003Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.compass"
+2025-11-22T19:19:36.003Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.gyrometer"
+2025-11-22T19:19:36.003Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.inclinometer"
+2025-11-22T19:19:36.003Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.orientation"
+2025-11-22T19:19:36.005Z In(05) vcpu-0 Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmpl", ...) failed, error: 2
+2025-11-22T19:19:36.005Z In(05) vcpu-0 PolicyVMXFindPolicyKey: policy file does not exist.
+2025-11-22T19:19:36.008Z In(05) vcpu-0 DEVSWAP: GuestOS does not require LSI adapter swap.
+2025-11-22T19:19:36.008Z No(00) vcpu-0 Metrics lastUpdate (s): 912375
+2025-11-22T19:19:36.008Z In(05) vcpu-0 Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1872, success=1 additionalError=0
+2025-11-22T19:19:36.008Z In(05) vcpu-0 Vix: [mainDispatch.c:4130]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=0, err=0).
+2025-11-22T19:19:36.008Z In(05) vcpu-0 Vix: [mainDispatch.c:4130]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+2025-11-22T19:19:36.008Z In(05) vcpu-0 Transitioned vmx/execState/val to poweredOn
+2025-11-22T19:19:36.008Z In(05) vcpu-0 Tools: Adding Tools inactivity timer.
+2025-11-22T19:19:36.010Z In(05) vmx VNET: MACVNetLinkStateEventHandler: event, up:1, adapter:0
+2025-11-22T19:19:36.010Z In(05) vmx VNET: MACVNetLinkStateEventHandler: 'ethernet0' state from 4 to 6.
+2025-11-22T19:19:36.051Z In(05) mks MKSControlMgr: connected
+2025-11-22T19:19:36.059Z In(05) vcpu-0 Syncing WHP TSCs took 18 us. Threshold is 1000 us.
+2025-11-22T19:19:36.064Z In(05) mks MKS-VMDB: VMDB requested a screenshot
+2025-11-22T19:19:36.064Z In(05) svga MKSScreenShotMgr: Taking a screenshot
+2025-11-22T19:19:36.068Z In(05) svga SWBScreen: Screen 0 Defined: xywh(0, 0, 640, 480) flags=0x3
+2025-11-22T19:19:36.068Z In(05) mks KHBKL: Unable to parse keystring at: ''
+2025-11-22T19:19:36.078Z In(05) mks SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2025-11-22T19:19:36.078Z In(05) mks SWBWindow: Window 1 Defined: src screenId=-1, src xywh(0, 0, 640, 480) dest xywh(0, 0, 640, 480) pixelScale=1, flags=0x8
+2025-11-22T19:19:36.078Z In(05) mks MKS-HWinMux: Backend Switch Queued
+2025-11-22T19:19:36.078Z In(05) mks GDI-Backend: successfully started by HWinMux to do window composition.
+2025-11-22T19:19:36.081Z In(05) mks MKS-HWinMux: Started GDI presentation backend.
+2025-11-22T19:19:36.097Z In(05) mks SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2025-11-22T19:19:36.097Z In(05) mks SWBWindow: Window 0 Defined: src screenId=-1, src xywh(0, 0, 640, 480) dest xywh(0, 0, 640, 480) pixelScale=1, flags=0x6
+2025-11-22T19:19:36.102Z In(05) vcpu-0 Ethernet0 MAC Address: 00:0c:29:14:89:43
+2025-11-22T19:19:36.110Z In(05) vcpu-0 Ethernet4 MAC Address: 00:0c:29:14:89:6b
+2025-11-22T19:19:36.116Z In(05) vcpu-0 Ethernet8 MAC Address: 00:0c:29:14:89:93
+2025-11-22T19:19:36.123Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 6 to 1.
+2025-11-22T19:19:36.127Z In(05) vcpu-0 Ethernet1 MAC Address: 00:0c:29:14:89:4d
+2025-11-22T19:19:36.142Z In(05) vcpu-0 Ethernet5 MAC Address: 00:0c:29:14:89:75
+2025-11-22T19:19:36.155Z In(05) vcpu-0 Ethernet9 MAC Address: 00:0c:29:14:89:9d
+2025-11-22T19:19:36.166Z In(05) vcpu-0 Ethernet2 MAC Address: 00:0c:29:14:89:57
+2025-11-22T19:19:36.173Z In(05) vcpu-0 Ethernet6 MAC Address: 00:0c:29:14:89:7f
+2025-11-22T19:19:36.186Z In(05) vcpu-0 Ethernet3 MAC Address: 00:0c:29:14:89:61
+2025-11-22T19:19:36.194Z In(05) vcpu-0 Ethernet7 MAC Address: 00:0c:29:14:89:89
+2025-11-22T19:19:36.354Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0) and 0xfe000000(0)
+2025-11-22T19:19:36.354Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:36.362Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:36.362Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:36.528Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:36.528Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:36.533Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:36.533Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:36.534Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1070
+2025-11-22T19:19:36.534Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:36.534Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:36.581Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:36.596Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:36.748Z In(05) vcpu-0 DISKUTIL: scsi0:0 : geometry=261/255/63
+2025-11-22T19:19:36.748Z In(05) vcpu-0 DISKUTIL: scsi0:0 : capacity=4194304 logical sector size=512
+2025-11-22T19:19:36.749Z In(05) vcpu-0 DISKUTIL: scsi0:1 : geometry=3916/255/63
+2025-11-22T19:19:36.749Z In(05) vcpu-0 DISKUTIL: scsi0:1 : capacity=62914560 logical sector size=512
+2025-11-22T19:19:37.343Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:37.462Z In(05) svga SWBScreen: Screen 0 Resized: xywh(0, 0, 720, 400) flags=0x3
+2025-11-22T19:19:38.573Z In(05) vcpu-0 SVGA: Unregistering IOSpace at 0x1070
+2025-11-22T19:19:38.573Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.573Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.575Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1070
+2025-11-22T19:19:38.575Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.575Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.576Z In(05) vcpu-0 SVGA: Unregistering IOSpace at 0x1070
+2025-11-22T19:19:38.576Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.576Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.577Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1070
+2025-11-22T19:19:38.577Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.577Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.578Z In(05) vcpu-0 SVGA: Unregistering IOSpace at 0x1070
+2025-11-22T19:19:38.578Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.578Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.580Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1070
+2025-11-22T19:19:38.580Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.580Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.581Z In(05) vcpu-0 SVGA: Unregistering IOSpace at 0x1070
+2025-11-22T19:19:38.581Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.581Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.583Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1070
+2025-11-22T19:19:38.583Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.583Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.584Z In(05) vcpu-0 SVGA: Unregistering IOSpace at 0x1070
+2025-11-22T19:19:38.584Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.584Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.585Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1070
+2025-11-22T19:19:38.585Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.585Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.586Z In(05) vcpu-0 SVGA: Unregistering IOSpace at 0x1070
+2025-11-22T19:19:38.586Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.586Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.588Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1070
+2025-11-22T19:19:38.588Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.588Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.588Z In(05) vcpu-0 SVGA: Unregistering IOSpace at 0x1070
+2025-11-22T19:19:38.588Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.588Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:38.590Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1070
+2025-11-22T19:19:38.590Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2025-11-22T19:19:38.590Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2025-11-22T19:19:39.596Z In(05) vcpu-0 Ethernet0 MAC Address: 00:0c:29:14:89:43
+2025-11-22T19:19:39.597Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.603Z In(05) vcpu-0 Ethernet4 MAC Address: 00:0c:29:14:89:6b
+2025-11-22T19:19:39.605Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.611Z In(05) vcpu-0 Ethernet8 MAC Address: 00:0c:29:14:89:93
+2025-11-22T19:19:39.613Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.618Z In(05) vcpu-0 Ethernet1 MAC Address: 00:0c:29:14:89:4d
+2025-11-22T19:19:39.620Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.626Z In(05) vcpu-0 Ethernet5 MAC Address: 00:0c:29:14:89:75
+2025-11-22T19:19:39.628Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.634Z In(05) vcpu-0 Ethernet9 MAC Address: 00:0c:29:14:89:9d
+2025-11-22T19:19:39.636Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.641Z In(05) vcpu-0 Ethernet2 MAC Address: 00:0c:29:14:89:57
+2025-11-22T19:19:39.642Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.648Z In(05) vcpu-0 Ethernet6 MAC Address: 00:0c:29:14:89:7f
+2025-11-22T19:19:39.649Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.655Z In(05) vcpu-0 Ethernet3 MAC Address: 00:0c:29:14:89:61
+2025-11-22T19:19:39.656Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.662Z In(05) vcpu-0 Ethernet7 MAC Address: 00:0c:29:14:89:89
+2025-11-22T19:19:39.663Z In(05) vcpu-0 VMXNET3 user: Supported set 0x00000001, configured set 0x00000001
+2025-11-22T19:19:39.671Z In(05) vcpu-0 SCSI0: RESET BUS
+2025-11-22T19:19:40.955Z In(05) vcpu-0 SCSI0: RESET BUS
+2025-11-22T19:19:40.987Z In(05) vcpu-0 DISKUTIL: scsi0:0 : capacity=4194304 logical sector size=512
+2025-11-22T19:19:40.988Z In(05) vcpu-0 SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+2025-11-22T19:19:40.988Z In(05) vcpu-0 DISKUTIL: scsi0:0 : capacity=4194304 logical sector size=512
+2025-11-22T19:19:40.988Z In(05) vcpu-0 SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+2025-11-22T19:19:40.989Z In(05) vcpu-0 DISKUTIL: scsi0:0 : capacity=4194304 logical sector size=512
+2025-11-22T19:19:40.990Z In(05) vcpu-0 SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+2025-11-22T19:19:41.038Z In(05) vcpu-0 DISKUTIL: scsi0:1 : capacity=62914560 logical sector size=512
+2025-11-22T19:19:41.038Z In(05) vcpu-0 SCSI DEVICE (scsi0:1): MODE SENSE(6) for unsupported page 0x8
+2025-11-22T19:19:41.039Z In(05) vcpu-0 DISKUTIL: scsi0:1 : capacity=62914560 logical sector size=512
+2025-11-22T19:19:41.039Z In(05) vcpu-0 SCSI DEVICE (scsi0:1): MODE SENSE(6) for unsupported page 0x8
+2025-11-22T19:19:41.040Z In(05) vcpu-0 DISKUTIL: scsi0:1 : capacity=62914560 logical sector size=512
+2025-11-22T19:19:41.040Z In(05) vcpu-0 SCSI DEVICE (scsi0:1): MODE SENSE(6) for unsupported page 0x8
+2025-11-22T19:19:41.058Z In(05) vcpu-0 DDB: "longContentID" = "b8cc528ef547ead05c2f8aa547d61327" (was "f12a7643cd08c330279049ea227e7cc5")
+2025-11-22T19:19:41.342Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 1 to 5.
+2025-11-22T19:19:44.203Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:44.218Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:44.855Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:44.862Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:44.876Z In(05) vcpu-0 DDB: "longContentID" = "de3293889f6046332cf512ef9a0fcf29" (was "3db63c0c8ad8df5f639ba886e836c1ef")
+2025-11-22T19:19:44.895Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:49.513Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:49.526Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:49.563Z In(05) vcpu-0 VMXNET3 user: Activate device 0.
+2025-11-22T19:19:49.563Z In(05) vcpu-0 VMXNET3 user: Ethernet0 Driver Info: version = 17043456 gosBits = 2 gosType = 1, gosVer = 0, gosMisc = 0
+2025-11-22T19:19:49.563Z In(05) vcpu-0 VMXNET3 user: Activate request succeeds for device 0.
+2025-11-22T19:19:49.564Z In(05) vcpu-0 VMXNET3 user: Activate device 1.
+2025-11-22T19:19:49.564Z In(05) vcpu-0 VMXNET3 user: Ethernet1 Driver Info: version = 17043456 gosBits = 2 gosType = 1, gosVer = 0, gosMisc = 0
+2025-11-22T19:19:49.564Z In(05) vcpu-0 VMXNET3 user: Activate request succeeds for device 1.
+2025-11-22T19:19:49.565Z In(05) vcpu-0 VMXNET3 user: Activate device 2.
+2025-11-22T19:19:49.565Z In(05) vcpu-0 VMXNET3 user: Ethernet2 Driver Info: version = 17043456 gosBits = 2 gosType = 1, gosVer = 0, gosMisc = 0
+2025-11-22T19:19:49.565Z In(05) vcpu-0 VMXNET3 user: Activate request succeeds for device 2.
+2025-11-22T19:19:56.961Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:58.980Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.182Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.183Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.190Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.198Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.214Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.214Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.234Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.237Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.246Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.259Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:19:59.378Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.017Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.024Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.050Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.058Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.073Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.090Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.104Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.110Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.126Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.143Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.149Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.160Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.190Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.207Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.251Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.261Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.280Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.293Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.311Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.319Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.323Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.383Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.420Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.429Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.458Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.466Z In(05) vcpu-0 Tools: Running status rpc handler: 0 => 1.
+2025-11-22T19:20:00.466Z In(05) vcpu-0 Tools: Changing running status: 0 => 1.
+2025-11-22T19:20:00.466Z In(05) vcpu-0 Tools: [RunningStatus] Last heartbeat value 1 (last received 0s ago)
+2025-11-22T19:20:00.466Z In(05) vcpu-0 Tools: Removing Tools inactivity timer.
+2025-11-22T19:20:00.514Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.521Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.531Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.541Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.548Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.553Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.588Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.600Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.641Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.648Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.657Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.680Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.710Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.761Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.770Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:00.969Z In(05) vcpu-0 DEVSWAP: GuestOS does not require LSI adapter swap.
+2025-11-22T19:20:00.969Z In(05) vcpu-0 Guest: toolbox: Version: 12.2.0.41219 (build-21223074)
+2025-11-22T19:20:00.975Z Wa(03) vcpu-0 GuestRpc: application toolbox, changing channel 65535 -> 0
+2025-11-22T19:20:00.975Z In(05) vcpu-0 GuestRpc: Channel 0, guest application toolbox.
+2025-11-22T19:20:00.975Z In(05) vcpu-0 Tools: [AppStatus] Last heartbeat value 1 (last received 0s ago)
+2025-11-22T19:20:00.975Z In(05) vcpu-0 TOOLS: appName=toolbox, oldStatus=0, status=1, guestInitiated=0.
+2025-11-22T19:20:00.977Z In(05) vcpu-0 Vix: [guestCommands.c:1963]: Error VIX_E_UNRECOGNIZED_COMMAND_IN_GUEST in VMAutomationTranslateGuestRpcError(): Tools failed to recognize guest command op code=62, result string="Unknown Command".
+2025-11-22T19:20:00.990Z In(05) vcpu-0 Tools: Changing running status: 1 => 2.
+2025-11-22T19:20:00.990Z In(05) vcpu-0 Tools: [RunningStatus] Last heartbeat value 1 (last received 0s ago)
+2025-11-22T19:20:00.990Z In(05) vcpu-0 TOOLS Received tools.set.version rpc call, version = TOOLS_VERSION_UNMANAGED, type is unknown
+2025-11-22T19:20:00.990Z In(05) vcpu-0 TOOLS Setting toolsVersionStatus = TOOLS_STATUS_UNMANAGED
+2025-11-22T19:20:00.990Z In(05) vcpu-0 Tools_SetVersionAndType did nothing; new tools version (2147483647) and type (0) match old Tools version and type
+2025-11-22T19:20:00.990Z In(05) vcpu-0 Vix: [guestCommands.c:1963]: Error VIX_E_UNRECOGNIZED_COMMAND_IN_GUEST in VMAutomationTranslateGuestRpcError(): Tools failed to recognize guest command op code=62, result string="Unknown Command".
+2025-11-22T19:20:00.990Z In(05) vcpu-0 Guest: Executing script for state change 'OS_PowerOn'.
+2025-11-22T19:20:01.052Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.072Z In(05) vcpu-0 Tools: State change '3' progress: last event 0, event 1, success 1.
+2025-11-22T19:20:01.137Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.155Z In(05) vcpu-0 Guest: Script exit code: 0, success = 1
+2025-11-22T19:20:01.155Z In(05) vcpu-0 TOOLS state change 3 returned status 1
+2025-11-22T19:20:01.155Z In(05) vcpu-0 Tools: State change '3' progress: last event 1, event 2, success 1.
+2025-11-22T19:20:01.155Z In(05) vcpu-0 Tools: State change '3' progress: last event 1, event 4, success 1.
+2025-11-22T19:20:01.155Z In(05) vcpu-0 Vix: [mainDispatch.c:4130]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+2025-11-22T19:20:01.155Z In(05) vcpu-0 Tools: Changing running status: 2 => 1.
+2025-11-22T19:20:01.155Z In(05) vcpu-0 Tools: [RunningStatus] Last heartbeat value 1 (last received 0s ago)
+2025-11-22T19:20:01.507Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.748Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.815Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.822Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.830Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.833Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.840Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.847Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.950Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.958Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.965Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:01.973Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:02.185Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:05.722Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:09.490Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:11.549Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:20.377Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:20:30.875Z In(05) vcpu-0 GuestInfo: HostinfoDetailedDataHeader version: 1
+2025-11-22T19:20:30.875Z No(00) vcpu-0 ConfigDB: Setting guestInfo.detailed.data = <not printed>
+2025-11-22T19:21:30.899Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T19:24:18.359Z In(05) vmx VNET: MACVNetLinkStateEventHandler: event, up:0, adapter:1
+2025-11-22T19:24:18.359Z In(05) vmx VNET: MACVNetLinkStateEventHandler: 'ethernet0' state from 5 to 7.
+2025-11-22T19:24:18.359Z In(05) vmx VNET: MACVNetLinkStateEventHandler: event, up:1, adapter:0
+2025-11-22T19:24:18.359Z In(05) vmx VNET: MACVNetLinkStateEventHandler: 'ethernet0' state from 7 to 2.
+2025-11-22T19:24:23.353Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 2 to 6.
+2025-11-22T19:24:23.449Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 6 to 1.
+2025-11-22T19:24:24.367Z In(05) vmx VNET: MACVNetLinkStateEventHandler: event, up:0, adapter:1
+2025-11-22T19:24:24.367Z In(05) vmx VNET: MACVNetLinkStateEventHandler: 'ethernet0' state from 1 to 3.
+2025-11-22T19:24:24.367Z In(05) vmx VNET: MACVNetLinkStateEventHandler: event, up:1, adapter:0
+2025-11-22T19:24:24.367Z In(05) vmx VNET: MACVNetLinkStateEventHandler: 'ethernet0' state from 3 to 2.
+2025-11-22T19:24:29.363Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 2 to 6.
+2025-11-22T19:24:29.460Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 6 to 1.
+2025-11-22T19:24:34.477Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 1 to 5.
+2025-11-22T19:26:29.369Z In(05) vmx VNET: MACVNetLinkStateEventHandler: event, up:0, adapter:1
+2025-11-22T19:26:29.369Z In(05) vmx VNET: MACVNetLinkStateEventHandler: 'ethernet0' state from 5 to 7.
+2025-11-22T19:26:29.369Z In(05) vmx VNET: MACVNetLinkStateEventHandler: event, up:1, adapter:0
+2025-11-22T19:26:29.369Z In(05) vmx VNET: MACVNetLinkStateEventHandler: 'ethernet0' state from 7 to 2.
+2025-11-22T19:26:34.372Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 2 to 6.
+2025-11-22T19:26:34.472Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 6 to 1.
+2025-11-22T19:26:39.477Z In(05) vmx VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 1 to 5.
+2025-11-22T19:45:03.192Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:45:03.194Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T19:45:13.388Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T20:00:49.458Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T20:03:47.068Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T20:34:27.082Z In(05) mks MKS-VMDB: VMDB requested a screenshot
+2025-11-22T20:34:27.082Z In(05) svga MKSScreenShotMgr: Taking a screenshot
+2025-11-22T20:34:27.129Z In(05) mks SWBWindow: Number of MKSWindows changed: 2 rendering MKSWindow(s) of total 2.
+2025-11-22T20:34:27.149Z In(05) mks SWBWindow: Window #0 validation failed: no valid host window or host surface.
+2025-11-22T20:34:27.149Z In(05) mks SWBVmdb: Destroy SWB Window Id #0 because an invalid MKSWindow definition is received from UI over VMDB.
+2025-11-22T20:34:27.149Z In(05) mks SWBWindow: Window 0 Destroyed: src screenId=-1, src xywh(0, 0, 720, 400) dest xywh(0, 0, 720, 400) pixelScale=1, flags=0x7
+2025-11-22T20:34:27.149Z In(05) mks SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 1.
+2025-11-22T20:34:27.149Z In(05) mks SWBWindow: Window #1 validation failed: no valid host window or host surface.
+2025-11-22T20:34:27.149Z In(05) mks SWBVmdb: Destroy SWB Window Id #1 because an invalid MKSWindow definition is received from UI over VMDB.
+2025-11-22T20:34:27.150Z In(05) mks SWBWindow: Window 1 Destroyed: src screenId=-1, src xywh(0, 0, 720, 400) dest xywh(0, 0, 720, 400) pixelScale=1, flags=0xC
+2025-11-22T20:34:27.150Z In(05) mks MKS-HWinMux: Backend Switch Queued
+2025-11-22T20:34:27.150Z In(05) mks SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2025-11-22T20:34:27.150Z In(05) mks GDI-Backend: stopped by HWinMux to do window composition.
+2025-11-22T20:34:27.776Z In(05) mks SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 1.
+2025-11-22T20:34:27.776Z In(05) mks SWBWindow: Window 0 Defined: src screenId=-1, src xywh(0, 0, 720, 400) dest xywh(0, 0, 720, 400) pixelScale=1, flags=0x7
+2025-11-22T20:34:27.776Z In(05) mks MKS-HWinMux: Backend Switch Queued
+2025-11-22T20:34:27.776Z In(05) mks SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2025-11-22T20:34:27.776Z In(05) mks SWBWindow: Window 1 Defined: src screenId=-1, src xywh(0, 0, 720, 400) dest xywh(0, 0, 100, 100) pixelScale=1, flags=0x8
+2025-11-22T20:34:27.776Z In(05) mks MKS-HWinMux: Backend Switch Queued
+2025-11-22T20:34:27.776Z In(05) mks GDI-Backend: successfully started by HWinMux to do window composition.
+2025-11-22T20:34:27.786Z In(05) mks MKS-HWinMux: Started GDI presentation backend.
+2025-11-22T20:35:19.469Z In(05) vmx TOOLS received request in VMX to set option 'synctime' -> '0'
+2025-11-22T20:35:19.470Z No(00) vmx ConfigDB: Setting tools.syncTime = "FALSE"
+2025-11-22T20:35:19.477Z In(05) vmx VMXVmdb_SetCfgState: cfgReqPath=/vm/#_VMX/vmx/cfgState/req/#28/, remDevPath=/vm/#_VMX/vmx/vigor/setCfgStateReq/#12/in/
+2025-11-22T20:35:19.542Z In(05) vmx TOOLS received request in VMX to set option 'synctime' -> '0'
+2025-11-22T20:35:19.543Z No(00) vmx ConfigDB: Setting tools.syncTime = "FALSE"
+2025-11-22T20:35:19.561Z No(00) vmx ConfigDB: Setting tools.upgrade.policy = "useGlobal"
+2025-11-22T20:35:19.663Z No(00) vmx ConfigDB: Setting ethernet9.startConnected = "FALSE"
+2025-11-22T20:35:19.695Z No(00) vmx ConfigDB: Unsetting "ethernet9.connectionType"
+2025-11-22T20:35:19.719Z No(00) vmx ConfigDB: Setting ethernet9.addressType = "generated"
+2025-11-22T20:35:19.719Z No(00) vmx ConfigDB: Setting ethernet9.generatedAddress = "00:0C:29:14:89:9D"
+2025-11-22T20:35:19.774Z No(00) vmx ConfigDB: Setting ethernet9.virtualDev = "vmxnet3"
+2025-11-22T20:35:19.814Z No(00) vmx ConfigDB: Setting ethernet8.startConnected = "FALSE"
+2025-11-22T20:35:19.837Z No(00) vmx ConfigDB: Unsetting "ethernet8.connectionType"
+2025-11-22T20:35:19.864Z No(00) vmx ConfigDB: Setting ethernet8.addressType = "generated"
+2025-11-22T20:35:19.864Z No(00) vmx ConfigDB: Setting ethernet8.generatedAddress = "00:0C:29:14:89:93"
+2025-11-22T20:35:19.925Z No(00) vmx ConfigDB: Setting ethernet8.virtualDev = "vmxnet3"
+2025-11-22T20:35:19.964Z No(00) vmx ConfigDB: Setting ethernet7.startConnected = "FALSE"
+2025-11-22T20:35:19.989Z No(00) vmx ConfigDB: Unsetting "ethernet7.connectionType"
+2025-11-22T20:35:20.012Z No(00) vmx ConfigDB: Setting ethernet7.addressType = "generated"
+2025-11-22T20:35:20.012Z No(00) vmx ConfigDB: Setting ethernet7.generatedAddress = "00:0C:29:14:89:89"
+2025-11-22T20:35:20.069Z No(00) vmx ConfigDB: Setting ethernet7.virtualDev = "vmxnet3"
+2025-11-22T20:35:20.112Z No(00) vmx ConfigDB: Setting ethernet5.startConnected = "FALSE"
+2025-11-22T20:35:20.133Z No(00) vmx ConfigDB: Unsetting "ethernet5.connectionType"
+2025-11-22T20:35:20.156Z No(00) vmx ConfigDB: Setting ethernet5.addressType = "generated"
+2025-11-22T20:35:20.156Z No(00) vmx ConfigDB: Setting ethernet5.generatedAddress = "00:0C:29:14:89:75"
+2025-11-22T20:35:20.205Z No(00) vmx ConfigDB: Setting ethernet5.virtualDev = "vmxnet3"
+2025-11-22T20:35:20.242Z No(00) vmx ConfigDB: Setting ethernet6.startConnected = "FALSE"
+2025-11-22T20:35:20.267Z No(00) vmx ConfigDB: Unsetting "ethernet6.connectionType"
+2025-11-22T20:35:20.288Z No(00) vmx ConfigDB: Setting ethernet6.addressType = "generated"
+2025-11-22T20:35:20.288Z No(00) vmx ConfigDB: Setting ethernet6.generatedAddress = "00:0C:29:14:89:7F"
+2025-11-22T20:35:20.343Z No(00) vmx ConfigDB: Setting ethernet6.virtualDev = "vmxnet3"
+2025-11-22T20:35:20.380Z No(00) vmx ConfigDB: Setting ethernet4.startConnected = "FALSE"
+2025-11-22T20:35:20.403Z No(00) vmx ConfigDB: Unsetting "ethernet4.connectionType"
+2025-11-22T20:35:20.428Z No(00) vmx ConfigDB: Setting ethernet4.addressType = "generated"
+2025-11-22T20:35:20.428Z No(00) vmx ConfigDB: Setting ethernet4.generatedAddress = "00:0C:29:14:89:6B"
+2025-11-22T20:35:20.480Z No(00) vmx ConfigDB: Setting ethernet4.virtualDev = "vmxnet3"
+2025-11-22T20:35:20.519Z No(00) vmx ConfigDB: Setting ethernet3.startConnected = "FALSE"
+2025-11-22T20:35:20.543Z No(00) vmx ConfigDB: Unsetting "ethernet3.connectionType"
+2025-11-22T20:35:20.564Z No(00) vmx ConfigDB: Setting ethernet3.addressType = "generated"
+2025-11-22T20:35:20.564Z No(00) vmx ConfigDB: Setting ethernet3.generatedAddress = "00:0C:29:14:89:61"
+2025-11-22T20:35:20.618Z No(00) vmx ConfigDB: Setting ethernet3.virtualDev = "vmxnet3"
+2025-11-22T20:35:20.655Z No(00) vmx ConfigDB: Unsetting "ethernet2.startConnected"
+2025-11-22T20:35:20.675Z No(00) vmx ConfigDB: Setting ethernet2.connectionType = "pvn"
+2025-11-22T20:35:20.699Z No(00) vmx ConfigDB: Setting ethernet2.addressType = "generated"
+2025-11-22T20:35:20.699Z No(00) vmx ConfigDB: Setting ethernet2.generatedAddress = "00:0C:29:14:89:57"
+2025-11-22T20:35:20.731Z No(00) vmx ConfigDB: Setting ethernet2.pvnID = "52 37 6c c8 87 87 36 d1-df 1a 68 38 bf 05 4c df"
+2025-11-22T20:35:20.764Z No(00) vmx ConfigDB: Setting ethernet2.virtualDev = "vmxnet3"
+2025-11-22T20:35:20.838Z In(05) vmx Vigor_EthernetScheduleReconnect: reconnect delay = 7 seconds, reconnectEthVector = 0x4
+2025-11-22T20:35:27.852Z In(05) vmx VNET: MACVNetConnectToNetwork 'Ethernet2' notify available.
+2025-11-22T20:35:27.854Z In(05) vmx EthernetDelayedConnect: Delayed connect of network adapter ethernet2 succeeded.
+2025-11-22T20:36:19.478Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.559Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.569Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.692Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.716Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.741Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.760Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.771Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.791Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.811Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.860Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.895Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.906Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.916Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.934Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.953Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:19.986Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.034Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.055Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.066Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.087Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.099Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.109Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.153Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.184Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.203Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.214Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.232Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.264Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.310Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.329Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.340Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.360Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.377Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.425Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.458Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.478Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.489Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.507Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.540Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.585Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.604Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.615Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.634Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.652Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.696Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.728Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.760Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.783Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.795Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:36:20.807Z In(05) vmx GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2025-11-22T20:37:29.687Z In(05) vmx TOOLS received request in VMX to set option 'synctime' -> '0'
+2025-11-22T20:37:29.687Z No(00) vmx ConfigDB: Setting tools.syncTime = "FALSE"
+2025-11-22T20:37:29.696Z In(05) vmx VMXVmdb_SetCfgState: cfgReqPath=/vm/#_VMX/vmx/cfgState/req/#29/, remDevPath=/vm/#_VMX/vmx/vigor/setCfgStateReq/#70/in/
+2025-11-22T20:37:29.754Z In(05) vmx TOOLS received request in VMX to set option 'synctime' -> '0'
+2025-11-22T20:37:29.754Z No(00) vmx ConfigDB: Setting tools.syncTime = "FALSE"
+2025-11-22T20:37:29.776Z No(00) vmx ConfigDB: Setting tools.upgrade.policy = "useGlobal"
+2025-11-22T20:37:29.810Z No(00) vmx ConfigDB: Unsetting "ethernet1.startConnected"
+2025-11-22T20:37:29.841Z No(00) vmx ConfigDB: Setting ethernet1.connectionType = "custom"
+2025-11-22T20:37:29.861Z No(00) vmx ConfigDB: Setting ethernet1.addressType = "generated"
+2025-11-22T20:37:29.861Z No(00) vmx ConfigDB: Setting ethernet1.generatedAddress = "00:0C:29:14:89:4D"
+2025-11-22T20:37:29.903Z No(00) vmx ConfigDB: Setting ethernet1.vnet = "VMnet0"
+2025-11-22T20:37:29.903Z No(00) vmx ConfigDB: Setting ethernet1.displayName = "VMnet0"
+2025-11-22T20:37:29.928Z No(00) vmx ConfigDB: Setting ethernet1.virtualDev = "vmxnet3"
+2025-11-22T20:37:30.001Z In(05) vmx Vigor_EthernetScheduleReconnect: reconnect delay = 7 seconds, reconnectEthVector = 0x2
+2025-11-22T20:37:36.988Z In(05) vmx VNET: MACVNetConnectToNetwork 'Ethernet1' notify available.
+2025-11-22T20:37:36.991Z In(05) vmx EthernetDelayedConnect: Delayed connect of network adapter ethernet1 succeeded.
+2025-11-22T20:37:55.380Z In(05) vmx Tools: sending 'OS_Suspend' (state = 5) state change request
+2025-11-22T20:37:55.380Z In(05) vmx Tools: Changing running status: 1 => 2.
+2025-11-22T20:37:55.380Z In(05) vmx Tools: [RunningStatus] Last heartbeat value 4675 (last received 0s ago)
+2025-11-22T20:37:55.381Z In(05) vmx Vix: [vmxCommands.c:838]: VMAutomation_SuspendImpl: SoftSuspend succeeded.
+2025-11-22T20:37:55.467Z In(05) vcpu-0 Guest: Executing script for state change 'OS_Suspend'.
+2025-11-22T20:37:55.469Z In(05) vcpu-0 Tools: State change '5' progress: last event 0, event 1, success 1.
+2025-11-22T20:37:55.597Z In(05) vcpu-0 BIOS-UUID is 56 4d ac 3a 90 fd 21 22-66 00 73 9f dd 14 89 43
+2025-11-22T20:37:55.598Z In(05) vcpu-0 Guest: Script exit code: 0, success = 1
+2025-11-22T20:37:55.598Z In(05) vcpu-0 TOOLS state change 5 returned status 1
+2025-11-22T20:37:55.598Z In(05) vcpu-0 Tools: State change '5' progress: last event 1, event 2, success 1.
+2025-11-22T20:37:55.598Z In(05) vmx SUSPEND: Start suspend (flags=0)
+2025-11-22T20:37:55.601Z In(05) svga MKSScreenShotMgr: Taking a screenshot
+2025-11-22T20:37:55.611Z In(05) vcpu-0 Closing all the disks of the VM.
+2025-11-22T20:37:55.611Z In(05) vcpu-0 Closing disk 'scsi0:1'
+2025-11-22T20:37:55.613Z In(05) vcpu-0 Closing disk 'scsi0:0'
+2025-11-22T20:37:55.617Z In(05) vcpu-0 Progress -1% (msg.checkpoint.saveStatus)
+2025-11-22T20:37:55.617Z In(05) vcpu-0 Checkpointed in VMware Workstation, 17.6.1, build-24319023, Windows Host
+2025-11-22T20:37:55.618Z In(05) vcpu-0 Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi-16003a31.vmem", ...) failed, error: 2
+2025-11-22T20:37:55.620Z In(05) vcpu-0 MainMem: Keep paging file 'C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi-16003a31.vmem' as memory image.
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 0% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 1% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 2% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 3% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 4% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 5% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 6% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 7% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 8% (none)
+2025-11-22T20:37:55.621Z In(05) vcpu-0 Progress 9% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 10% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 11% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 12% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 13% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 14% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 15% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 16% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 17% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 18% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 19% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 20% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 21% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 22% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 23% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 24% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 25% (none)
+2025-11-22T20:37:55.622Z In(05) vcpu-0 Progress 26% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 27% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 28% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 29% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 30% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 31% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 32% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 33% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 34% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 35% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 36% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 37% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 38% (none)
+2025-11-22T20:37:55.623Z In(05) vcpu-0 Progress 39% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 40% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 41% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 42% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 43% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 44% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 45% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 46% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 47% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 48% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 49% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 50% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 51% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 52% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 53% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 54% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 55% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 56% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 57% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 58% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 59% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 60% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 61% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 62% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 63% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 64% (none)
+2025-11-22T20:37:55.624Z In(05) vcpu-0 Progress 65% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 66% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 67% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 68% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 69% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 70% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 71% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 72% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 73% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 74% (none)
+2025-11-22T20:37:55.625Z In(05) vcpu-0 Progress 75% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 76% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 77% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 78% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 79% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 80% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 81% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 82% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 83% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 84% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 85% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 86% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 87% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 88% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 89% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 90% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 91% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 92% (none)
+2025-11-22T20:37:55.626Z In(05) vcpu-0 Progress 93% (none)
+2025-11-22T20:37:55.627Z In(05) vcpu-0 Progress 94% (none)
+2025-11-22T20:37:55.627Z In(05) vcpu-0 Progress 95% (none)
+2025-11-22T20:37:55.627Z In(05) vcpu-0 Progress 96% (none)
+2025-11-22T20:37:55.627Z In(05) vcpu-0 Progress 97% (none)
+2025-11-22T20:37:55.627Z In(05) vcpu-0 Progress 98% (none)
+2025-11-22T20:37:55.627Z In(05) vcpu-0 Progress 99% (none)
+2025-11-22T20:37:55.627Z In(05) vcpu-0 Progress 100% (none)
+2025-11-22T20:37:55.656Z In(05) vcpu-0 SVGA: Guest reported SVGA driver: (0, 0, 0, 0)
+2025-11-22T20:37:55.656Z In(05) vcpu-0 SVGA-ScreenMgr: No SVGA screens defined at checkpoint save.
+2025-11-22T20:37:55.657Z In(05) vcpu-0 GuestRpc: Reinitializing Channel 0(toolbox)
+2025-11-22T20:37:55.657Z In(05) vcpu-0 GuestMsg: Channel 0, Cannot unpost because the previous post is already completed
+2025-11-22T20:37:55.657Z In(05) vcpu-0 Tools: [AppStatus] Last heartbeat value 4676 (last received 0s ago)
+2025-11-22T20:37:55.657Z In(05) vcpu-0 TOOLS: appName=toolbox, oldStatus=1, status=0, guestInitiated=0.
+2025-11-22T20:37:55.661Z In(05) vcpu-0 TOOLS: appName=toolbox-dnd, oldStatus=0, status=0, guestInitiated=0.
+2025-11-22T20:37:55.661Z In(05) vcpu-0 DEPLOYPKG: ToolsDeployPkgCptSave: state=0 err=0 (null msg)
+2025-11-22T20:37:55.661Z In(05) vcpu-0 Progress 101% (none)
+2025-11-22T20:37:55.663Z No(00) vcpu-0 ConfigDB: Setting checkpoint.vmState = "FortiGate DEPi-16003a31.vmss"
+2025-11-22T20:37:55.684Z In(05) vcpu-0 Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1875, success=1 additionalError=0
+2025-11-22T20:37:55.684Z In(05) vcpu-0 SUSPEND: Completed suspend: 'Operation completed successfully' (0)
+2025-11-22T20:37:55.684Z In(05) vcpu-0 Tools: State change '5' progress: last event 2, event 4, success 1.
+2025-11-22T20:37:55.684Z In(05) vcpu-0 Tools: Changing running status: 2 => 1.
+2025-11-22T20:37:55.684Z In(05) vcpu-0 Tools: [RunningStatus] Last heartbeat value 4676 (last received 0s ago)
+2025-11-22T20:37:55.684Z In(05) vmx Stopping VCPU threads...
+2025-11-22T20:37:55.684Z In(05) vmx Vix: [mainDispatch.c:4652]: VMAutomationProcessMessage: Abort the command. VMX is shutting down
+2025-11-22T20:37:55.687Z In(05) vmx Stopping MKS/SVGA threads
+2025-11-22T20:37:55.687Z In(05) vmx MKSThread: Requesting MKS exit
+2025-11-22T20:37:55.687Z In(05) svga MKSThread: SVGA thread is exiting the main loop
+2025-11-22T20:37:55.687Z In(05) mks SWBWindow: Window 0 Destroyed: src screenId=-1, src xywh(0, 0, 720, 400) dest xywh(0, 0, 720, 400) pixelScale=1, flags=0x7
+2025-11-22T20:37:55.688Z In(05) mks SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2025-11-22T20:37:55.688Z In(05) mks SWBWindow: Window 1 Destroyed: src screenId=-1, src xywh(0, 0, 720, 400) dest xywh(0, 0, 100, 100) pixelScale=1, flags=0x8
+2025-11-22T20:37:55.688Z In(05) mks MKS-HWinMux: Backend Switch Queued
+2025-11-22T20:37:55.688Z In(05) mks SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2025-11-22T20:37:55.689Z In(05) mks SWBScreen: Screen 0 Destroyed: xywh(0, 0, 720, 400) flags=0x3
+2025-11-22T20:37:55.690Z In(05) vmx MKS/SVGA threads are stopped
+2025-11-22T20:37:55.690Z In(05) vmx 
+2025-11-22T20:37:55.690Z In(05)+ vmx OvhdMem: Final (Power Off) Overheads
+2025-11-22T20:37:55.690Z In(05) vmx                                                       reserved      |          used
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_MainMem                    :  524288 524288      - |      0      0      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_VmxText                    :    7936   7936      - |      0      0      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_VmxTextLibs                :   17408  17408      - |      0      0      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem Total excluded                      :  549632 549632      - |      -      -      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem Actual maximum                      :         549632        |             -
+2025-11-22T20:37:55.690Z In(05)+ vmx 
+2025-11-22T20:37:55.690Z In(05) vmx                                                       reserved      |          used
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_SvgaMobFallback            :  196608 196608      - |      0      0      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_SvgaSurfaceTable           :       6      6      - |      1      1      -
+2025-11-22T20:37:55.690Z In(05) vmx OvhdMem OvhdUser_SvgaSDirtyCache            :      96     96      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_SvgaCursor                 :      10     10      - |     10     10      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_SvgaPPNList                :     258    258      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxHeap                    :    8704   8704      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxMks                     :      49     49      - |     17     17      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxMksRenderOps            :     678    678      - |    492    492      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxMks3d                   :   65537  65537      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxMksScreenTemp           :   69890  69890      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxMksVnc                  :   74936  74936      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxMksScreen               :  131075 131075      - |      0    376      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxMksSwbCursor            :    4096   4096      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VmxThreads                 :   35328  35328      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem Total paged                         :  608407 608407      - |    520    896      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem Actual maximum                      :         608407        |        608407
+2025-11-22T20:37:55.691Z In(05)+ vmx 
+2025-11-22T20:37:55.691Z In(05) vmx                                                       reserved      |          used
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_SharedArea                 :      19     19      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_BusMemTraceBitmap          :      22     22      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_PFrame                     :       0   2304      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_BusMemFrame                :     677   1760      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VGA                        :      64     64      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_ServicesMPN                :       3      3      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_LocalApic                  :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_VnicGuest                  :     160    160      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_LSIBIOS                    :       4      4      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_LSIRings                   :       4      4      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_SAS1068BIOS                :       4      4      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_FlashRam                   :     128    128      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_SVGAFB                     :   32768  32768      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_SVGAMEM                    :      64    512      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_ExtCfg                     :       4      4      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_LBR                        :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_MonWired                   :      35     35      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_NVDC                       :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdUser_PCIeMMIOArea               :      70     70      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem Total nonpaged                      :   34082  37917      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem Actual maximum                      :          34082        |         37917
+2025-11-22T20:37:55.691Z In(05)+ vmx 
+2025-11-22T20:37:55.691Z In(05) vmx                                                       reserved      |          used
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_Alloc                       :      98     98      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_BusMemFrame                 :     609    666      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_BusMem2MInfo                :       8      8      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_BusMem1GInfo                :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_BusMemPreval                :       4      4      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_MonAS                       :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_GuestMem                    :      40     40      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_TC                          :     513    513      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_BusMemMonAS                 :       5      5      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_PlatformMonAS               :       7      7      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_HVNuma                      :       2      2      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_HV                          :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_HVMSRBitmap                 :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_VHVGuestMSRBitmap           :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_Numa                        :      24     24      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_BaseWired                   :      29     29      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_Bootstrap                   :    2300   2300      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_GPhysTraced                 :     268    268      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_GPhysHWMMU                  :    1342   1342      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_GPhysNoTrace                :     264    264      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_PhysMemGart                 :     104    104      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem Total anonymous                     :    5633   5690      - |      0      0      -
+2025-11-22T20:37:55.691Z In(05) vmx OvhdMem Actual maximum                      :           5633        |          5690
+2025-11-22T20:37:55.691Z In(05)+ vmx 
+2025-11-22T20:37:55.691Z In(05) vmx VMMEM: Maximum Reservation: 2546MB (MainMem=2048MB)
+2025-11-22T20:37:55.691Z In(05) vmx MemSched: BALLOON HIST [0, 524288]: 0 0 0 0 0 0 0 0 0 0 0 0
+2025-11-22T20:37:55.691Z In(05) vmx MemSched: BALLOON P50 1 P70 1 P90 1 MIN 524288 MAX 0
+2025-11-22T20:37:55.691Z In(05) vmx MemSched: SWAP HIST [0, 524288]: 0 0 0 0 0 0 0 0 0 0 0 0
+2025-11-22T20:37:55.691Z In(05) vmx MemSched: SWAP P50 1 P70 1 P90 1 MIN 524288 MAX 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: LOCK HIST [0, 524288]: 0 0 0 0 0 0 0 0 0 0 0 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: LOCK P50 1 P70 1 P90 1 MIN 524288 MAX 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: LOCK_TARGET HIST [0, 524288]: 0 0 0 0 0 0 0 0 0 0 0 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: LOCK_TARGET P50 1 P70 1 P90 1 MIN 524288 MAX 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: ACTIVE_PCT HIST [0, 100]: 0 0 0 0 0 0 0 0 0 0 0 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: ACTIVE_PCT P50 1 P70 1 P90 1 MIN 100 MAX 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: NUM_VMS HIST [0, 10]: 0 0 0 0 0 0 0 0 0 0 0 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: NUM_VMS P50 1 P70 1 P90 1 MIN 10 MAX 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: HOSTLOCK HIST [0, 3269991]: 0 0 0 0 0 0 0 0 0 0 0 0
+2025-11-22T20:37:55.692Z In(05) vmx MemSched: HOSTLOCK P50 1 P70 1 P90 1 MIN 3269991 MAX 0
+2025-11-22T20:37:55.692Z In(05) vmx TOOLS received request in VMX to set option 'enableDnD' -> '0'
+2025-11-22T20:37:55.692Z In(05) vmx GuestRpc: Attempt to send TCLO msg for 'toolbox' while GuestRpc is powering off.
+2025-11-22T20:37:55.692Z In(05) vmx TOOLS received request in VMX to set option 'copypaste' -> '0'
+2025-11-22T20:37:55.692Z In(05) vmx GuestRpc: Attempt to send TCLO msg for 'toolbox' while GuestRpc is powering off.
+2025-11-22T20:37:55.724Z In(05) vmx HgfsServerManagerVigorExit: Destroy:
+2025-11-22T20:37:55.724Z In(05) vmx Tools: ToolsRunningStatus_Exit, delayedRequest is 0x0
+2025-11-22T20:37:55.724Z In(05) vmx Tools: Changing running status: 1 => 0.
+2025-11-22T20:37:55.724Z In(05) vmx Tools: [RunningStatus] Last heartbeat value 4676 (last received 0s ago)
+2025-11-22T20:37:55.724Z In(05) vmx TOOLS hostVerifiedSamlToken capability set to FALSE.
+2025-11-22T20:37:55.728Z In(05) vmx SOUNDLIB: Closing Wave sound backend.
+2025-11-22T20:37:55.731Z In(05) mks MKSControlMgr: disconnected
+2025-11-22T20:37:55.731Z In(05) mks GDI-Backend: stopped by HWinMux to do window composition.
+2025-11-22T20:37:55.731Z In(05) mks MKSRenderMain: Stopping BasicOps
+2025-11-22T20:37:55.731Z In(05) mks MKSRenderMain: Stopped BasicOps
+2025-11-22T20:37:55.733Z In(05) mks MKS PowerOff
+2025-11-22T20:37:55.733Z In(05) svga SVGA thread is exiting
+2025-11-22T20:37:55.733Z In(05) mks MKS thread is exiting
+2025-11-22T20:37:55.734Z Wa(03) vmx Guest: 
+2025-11-22T20:37:55.737Z In(05) vmx AIOWIN32C: asyncOps=7210 syncOps=18 bufSize=220Kb fixedOps=867
+2025-11-22T20:37:55.737Z In(05) aioCompletion AIO thread processed 7210 completions
+2025-11-22T20:37:55.856Z In(05) deviceThread Device thread is exiting
+2025-11-22T20:37:55.856Z In(05) vmx Vix: [mainDispatch.c:1172]: VMAutomationPowerOff: Powering off.
+2025-11-22T20:37:55.858Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\Marawan Mohamed\Downloads\DEPI\DEPI\FortiGate DEPi.vmpl", ...) failed, error: 2
+2025-11-22T20:37:55.858Z In(05) vmx Policy_SavePolicyFile: invalid arguments to function.
+2025-11-22T20:37:55.858Z In(05) vmx PolicyVMX_Exit: Could not write out policies: 15.
+2025-11-22T20:37:55.858Z In(05) vmx WORKER: asyncOps=2 maxActiveOps=2 maxPending=2 maxCompleted=0
+2025-11-22T20:37:55.859Z In(05) PowerNotifyThread PowerNotify thread exiting.
+2025-11-22T20:37:55.863Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1875, success=1 additionalError=0
+2025-11-22T20:37:55.863Z In(05) vmx Vix: [mainDispatch.c:4231]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2025-11-22T20:37:55.863Z In(05) vmx STATSFILE: Amount of dynamic storage used: 656
+2025-11-22T20:37:55.863Z In(05) vmx STATSFILE: Number of entries made: 67
+2025-11-22T20:37:55.863Z No(00) vmx ConfigDB: Setting cleanShutdown = "TRUE"
+2025-11-22T20:37:55.889Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2025-11-22T20:37:55.889Z In(05) vmx Vix: [mainDispatch.c:4231]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2025-11-22T20:37:55.889Z In(05) vmx Transitioned vmx/execState/val to suspended
+2025-11-22T20:37:55.889Z In(05) vmx VMX idle exit
+2025-11-22T20:37:55.889Z In(05) vmx WQPoolFreePoll : pollIx = 3, signalHandle = 992
+2025-11-22T20:37:55.889Z In(05) vmx Vix: [mainDispatch.c:818]: VMAutomation_LateShutdown()
+2025-11-22T20:37:55.889Z In(05) vmx Vix: [mainDispatch.c:773]: VMAutomationCloseListenerSocket. Closing listener socket.
+2025-11-22T20:37:55.889Z In(05) vmx Flushing VMX VMDB connections
+2025-11-22T20:37:55.890Z In(05) vmx VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2025-11-22T20:37:55.890Z In(05) vmx VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2025-11-22T20:37:55.890Z In(05) vmx VigorTransport_ServerDestroy: server destroyed.
+2025-11-22T20:37:55.890Z In(05) vmx WQPoolFreePoll : pollIx = 2, signalHandle = 2216
+2025-11-22T20:37:55.890Z In(05) vmx WQPoolFreePoll : pollIx = 1, signalHandle = 744
+2025-11-22T20:37:55.895Z In(05) vmx VMX exit (0).
+2025-11-22T20:37:55.895Z In(05) vmx OBJLIB-LIB: ObjLib cleanup done.
+2025-11-22T20:37:55.895Z In(05) vmx AIOMGR-S : stat o=9 r=42 w=70 i=0 br=240881 bw=1824787
